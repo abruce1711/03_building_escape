@@ -2,6 +2,8 @@
 
 #include "OpenDoor.h"
 #include "GameFramework/Actor.h"
+#include "Engine/World.h"
+#include "GameFramework/PlayerController.h"
 
 // Sets default values for this component's properties
 UOpenDoor::UOpenDoor()
@@ -19,11 +21,14 @@ void UOpenDoor::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	// We are searching top down here. Getting the world, then the player controller (mind), then the pawn (body)
+	// We can assign this to Actor that opens because pawn inherits from actor
+	ActorThatOpens = GetWorld()->GetFirstPlayerController()->GetPawn();
 }
 
 void UOpenDoor::OpenDoor()
 {
-	//Gets the Actor
+	//Gets the Actor linked with this component
 	AActor* Actor = GetOwner();
 
 	// Create rotation
