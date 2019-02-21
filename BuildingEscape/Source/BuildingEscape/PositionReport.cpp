@@ -21,8 +21,9 @@ void UPositionReport::BeginPlay()
 
 	// Gets name of the actor and returns it in the log
 	FString ObjectName = GetOwner()->GetName();
-	UE_LOG(LogTemp, Warning, TEXT("Position Report report for %s"), *ObjectName);
-	
+	FString ObjectPos = GetOwner()->GetActorLocation().ToString();
+
+	UE_LOG(LogTemp, Warning, TEXT("%s is at %s"), *ObjectName, *ObjectPos);
 }
 
 
@@ -33,4 +34,3 @@ void UPositionReport::TickComponent(float DeltaTime, ELevelTick TickType, FActor
 
 	//..
 }
-
