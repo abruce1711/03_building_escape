@@ -21,19 +21,31 @@ protected:
 	virtual void BeginPlay() override;
 
 	void OpenDoor();
+	void CloseDoor();
 
 public:	
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 private:
+	AActor* Owner;
+
 	// Angle the door opens
-	UPROPERTY(VisibleAnywhere)
-	float OpenAngle = 90.0f;
+	UPROPERTY(EditAnywhere)
+	float OpenAngle = 0.f;
+
+	// Angle the door closes
+	float CloseAngle = 90.f;
 
 	// Pressure plate that triggers door open
 	UPROPERTY(EditAnywhere)
 	ATriggerVolume* PressurePlate;
+
+	// Amout of time is open
+	UPROPERTY(EditAnywhere)
+	float DoorCloseDelay = 1.f;
+
+	float LastDoorOpenTime;
 
 	// The actor that trigger the pressure plate
 	AActor* ActorThatOpens; // Remember pawn inherits from actor - we are using a pawn at the moment

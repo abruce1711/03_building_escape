@@ -1,17 +1,5 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\local code repos\unreal\unreal_udemy_course\03_building_escape).
-  Creating makefile for hot reloading BuildingEscapeEditor (source directory changed)
   Compiling game modules for hot reload
-  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Parsing headers for BuildingEscapeEditor
-    Running UnrealHeaderTool "D:\local code repos\unreal\unreal_udemy_course\03_building_escape\BuildingEscape\BuildingEscape.uproject" "D:\local code repos\unreal\unreal_udemy_course\03_building_escape\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for BuildingEscapeEditor in 22.3171978 seconds
-  Building 5 actions with 8 processes...
-    [1/5] BuildingEscape.init.gen.cpp
-    [2/5] OpenDoor.cpp
-    [3/5] OpenDoor.gen.cpp
-    [4/5] UE4Editor-BuildingEscape-7440.lib
-       Creating library D:\local code repos\unreal\unreal_udemy_course\03_building_escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-7440.lib and object D:\local code repos\unreal\unreal_udemy_course\03_building_escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-7440.exp
-    [5/5] UE4Editor-BuildingEscape-7440.dll
-       Creating library D:\local code repos\unreal\unreal_udemy_course\03_building_escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-7440.suppressed.lib and object D:\local code repos\unreal\unreal_udemy_course\03_building_escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-7440.suppressed.exp
+  Target is up to date
   Deploying BuildingEscapeEditor Win64 Development...
-  Total build time: 220.29 seconds (Parallel executor: 103.10 seconds)
+  Total build time: 2.10 seconds (NoActionsToExecute executor: 0.00 seconds)

@@ -1,4 +1,6 @@
 // Copyright Andrew Bruce 2019
+#include <thread>
+#include <chrono>
 
 #include "OpenDoor.h"
 #include "GameFramework/Actor.h"
@@ -20,6 +22,9 @@ UOpenDoor::UOpenDoor()
 void UOpenDoor::BeginPlay()
 {
 	Super::BeginPlay();
+
+	//Gets the Actor linked with this component
+	Owner = GetOwner();
 	
 	// We are searching top down here. Getting the world, then the player controller (mind), then the pawn (body)
 	// We can assign this to Actor that opens because pawn inherits from actor
@@ -28,14 +33,16 @@ void UOpenDoor::BeginPlay()
 
 void UOpenDoor::OpenDoor()
 {
-	//Gets the Actor linked with this component
-	AActor* Actor = GetOwner();
-
-	// Create rotation
-	FRotator NewRotation = FRotator(0.0f, 0.0f, 0.0f);
-
 	// Sets the the actors rotation on z axis
-	Actor->SetActorRotation(NewRotation);
+	for (float i = 0; i <= OpenAngle; i ++) {
+		Owner->SetActorRotation(FRotator(0.f, i, 0.f));
+	}
+}
+
+void UOpenDoor::CloseDoor()
+{
+	// Sets the the actors rotation on z axis
+	Owner->SetActorRotation(FRotator(0.f, CloseAngle, 0.f));
 }
 
 
@@ -47,6 +54,14 @@ void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
 	// Poll trigger volume every frame
 	if (PressurePlate->IsOverlappingActor(ActorThatOpens)) {
 		OpenDoor();
+
+		// Stored when door opened
+		LastDoorOpenTime = GetWorld()->GetTimeSeconds();
+	}
+
+	// Closes the door after a set delay
+	if (LastDoorOpenTime + DoorCloseDelay <= GetWorld()->GetTimeSeconds()) {
+		CloseDoor();
 	}
 }
 
