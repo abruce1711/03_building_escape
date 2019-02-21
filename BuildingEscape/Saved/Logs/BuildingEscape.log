@@ -2447,3 +2447,70 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.02.21-20.41.30:803][223]LogInit: XAudio2 using 'Speakers (2- Yeti Nano)' : 2 channels at 48 kHz using 24 bits per sample (channel mask 0x3)
 [2019.02.21-20.41.31:141][224]LogInit: XAudio2 using 'Speakers (2- Yeti Nano)' : 2 channels at 48 kHz using 24 bits per sample (channel mask 0x3)
 [2019.02.21-20.41.31:796][226]LogInit: XAudio2 using 'Speakers (2- Yeti Nano)' : 2 channels at 48 kHz using 24 bits per sample (channel mask 0x3)
+[2019.02.21-20.42.42:384][436]LogInit: XAudio2 using 'Headset (Grind Wireless Hands-Free)' : 1 channels at 16 kHz using 16 bits per sample (channel mask 0x4)
+[2019.02.21-20.42.42:999][436]LogAudio: Error: CreateSubmixVoice (Reverb) error: XAPO Creation Failed
+[2019.02.21-21.05.51:451][565]LogHotReload: New module detected: UE4Editor-BuildingEscape-8891.dll
+[2019.02.21-21.05.53:814][573]LogHotReload: Starting Hot-Reload from IDE
+[2019.02.21-21.05.53:905][573]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0008 seconds. Added 3 classes and 2 folders.
+[2019.02.21-21.05.53:911][573]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.02.21-21.05.54:014][573]LogContentBrowser: Native class hierarchy populated in 0.0167 seconds. Added 2655 classes and 624 folders.
+[2019.02.21-21.05.54:018][573]Display: HotReload took  0.2s.
+[2019.02.21-21.08.53:804][107]LogHotReload: New module detected: UE4Editor-BuildingEscape-4270.dll
+[2019.02.21-21.08.56:517][116]LogHotReload: Starting Hot-Reload from IDE
+[2019.02.21-21.08.56:856][116]LogClass: Could not find existing class OpenDoor in package /Script/BuildingEscape for HotReload, assuming new class
+[2019.02.21-21.08.56:870][116]LogHotReload: Re-instancing OpenDoor after hot-reload.
+[2019.02.21-21.08.57:018][116]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0014 seconds. Added 3 classes and 2 folders.
+[2019.02.21-21.08.57:025][116]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.02.21-21.08.57:129][116]LogContentBrowser: Native class hierarchy populated in 0.0204 seconds. Added 2655 classes and 624 folders.
+[2019.02.21-21.08.57:134][116]Display: HotReload took  0.6s.
+[2019.02.21-21.20.39:019][202]LogHotReload: New module detected: UE4Editor-BuildingEscape-4526.dll
+[2019.02.21-21.20.40:384][207]LogHotReload: Starting Hot-Reload from IDE
+[2019.02.21-21.20.40:465][207]LogClass: Could not find existing class OpenDoor in package /Script/BuildingEscape for HotReload, assuming new class
+[2019.02.21-21.20.40:484][207]LogHotReload: Re-instancing OpenDoor after hot-reload.
+[2019.02.21-21.20.40:620][207]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0011 seconds. Added 3 classes and 2 folders.
+[2019.02.21-21.20.40:627][207]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.02.21-21.20.40:724][207]LogContentBrowser: Native class hierarchy populated in 0.0158 seconds. Added 2655 classes and 624 folders.
+[2019.02.21-21.20.40:728][207]Display: HotReload took  0.3s.
+[2019.02.21-21.21.04:499][522]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-21.30.53:350][352]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2019.02.21-21.30.54:447][353]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2019.02.21-21.30.58:372][432]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-21.32.10:265][563]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.21-21.32.52:968][685]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-21.33.21:319][352]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.02.21-21.33.22:505][379]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.02.21-21.33.23:747][411]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (TriggerVolume)
+[2019.02.21-21.33.39:821][860]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x300)
+[2019.02.21-21.33.40:457][873]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.02.21-21.33.42:025][913]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (TriggerVolume)
+[2019.02.21-21.34.00:510][426]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-21.34.02:065][464]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
+[2019.02.21-21.34.04:140][513]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2019.02.21-21.34.07:771][585]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-21.34.30:132][164]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.02.21-21.34.31:762][202]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (TriggerVolume)
+[2019.02.21-21.34.41:146][462]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.02.21-21.34.41:693][469]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.02.21-21.34.45:733][564]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.02.21-21.34.47:042][597]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2019.02.21-21.35.02:714][ 31]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.02.21-21.35.15:565][323]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2019.02.21-21.35.17:146][356]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-21.35.21:533][474]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (TriggerVolume)
+[2019.02.21-21.35.26:415][599]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-21.35.30:664][705]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-21.35.31:654][732]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2019.02.21-21.35.33:114][763]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-21.35.36:904][859]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (TriggerVolume2)
+[2019.02.21-21.35.38:160][893]Cmd: DELETE
+[2019.02.21-21.35.38:161][893]Cmd: ACTOR DELETE
+[2019.02.21-21.35.38:549][893]LogEditorActor: Deleted Actor: TriggerVolume
+[2019.02.21-21.35.38:619][893]LogEditorActor: Deleted 1 Actors (0.172 secs)
+[2019.02.21-21.35.40:131][938]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2019.02.21-21.36.41:155][699]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-21.36.43:699][726]LogSavePackage: Moving '../../../../../../local code repos/unreal/unreal_udemy_course/03_building_escape/BuildingEscape/Saved/NewMap_Auto5E7D6D81A43AE27C6FA740F85DD423386.tmp' to '../../../../../../local code repos/unreal/unreal_udemy_course/03_building_escape/BuildingEscape/Saved/Autosaves/Game/NewMap_Auto5.umap'
+[2019.02.21-21.36.43:751][726]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.970
+[2019.02.21-21.36.43:751][726]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.970
+[2019.02.21-21.36.52:002][906]LogSavePackage: Moving '../../../../../../local code repos/unreal/unreal_udemy_course/03_building_escape/BuildingEscape/Saved/NewMap5E3FAB244FD9A510E256549FCF8ADDC1.tmp' to '../../../../../../local code repos/unreal/unreal_udemy_course/03_building_escape/BuildingEscape/Content/NewMap.umap'
+[2019.02.21-21.36.52:115][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="../../../../../../local code repos/unreal/unreal_udemy_course/03_building_escape/BuildingEscape/Content/NewMap_BuiltData.uasset" SILENT=true
+[2019.02.21-21.36.52:846][906]LogSavePackage: Moving '../../../../../../local code repos/unreal/unreal_udemy_course/03_building_escape/BuildingEscape/Saved/NewMap_BuiltData86AC5C79416A6643BD87D08B0AFCACD7.tmp' to '../../../../../../local code repos/unreal/unreal_udemy_course/03_building_escape/BuildingEscape/Content/NewMap_BuiltData.uasset'

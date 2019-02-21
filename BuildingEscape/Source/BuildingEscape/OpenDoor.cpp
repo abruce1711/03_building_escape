@@ -19,6 +19,10 @@ void UOpenDoor::BeginPlay()
 {
 	Super::BeginPlay();
 	
+}
+
+void UOpenDoor::OpenDoor()
+{
 	//Gets the Actor
 	AActor* Actor = GetOwner();
 
@@ -27,10 +31,6 @@ void UOpenDoor::BeginPlay()
 
 	// Sets the the actors rotation on z axis
 	Actor->SetActorRotation(NewRotation);
-
-	UE_LOG(LogTemp, Warning, TEXT("Test"))
-
-	
 }
 
 
@@ -39,6 +39,9 @@ void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	// ...
+	// Poll trigger volume every frame
+	if (PressurePlate->IsOverlappingActor(ActorThatOpens)) {
+		OpenDoor();
+	}
 }
 
