@@ -2026,3 +2026,311 @@ Exception rethrown at [0]:
 [2019.02.21-23.50.25:056][934]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
 [2019.02.21-23.50.25:111][934]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2019.02.21-23.50.25:127][935]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2019.02.21-23.51.43:155][408]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-23.51.46:380][512]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x309)
+[2019.02.21-23.51.46:515][512]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.21-23.51.47:251][528]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x309)
+[2019.02.21-23.52.05:542][186]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-23.52.07:846][254]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2019.02.21-23.52.08:965][292]Cmd: DELETE
+[2019.02.21-23.52.08:965][292]Cmd: ACTOR DELETE
+[2019.02.21-23.52.08:975][292]LogEditorActor: Deleted Actor: SpotLight
+[2019.02.21-23.52.09:020][292]LogEditorActor: Deleted 1 Actors (0.055 secs)
+[2019.02.21-23.52.10:589][348]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-23.52.10:655][350]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.21-23.52.10:689][350]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.21-23.52.10:690][350]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.21-23.52.10:690][350]PIE: New page: PIE session: NewMap (21 Feb 2019 23:52:10)
+[2019.02.21-23.52.10:690][350]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.02.21-23.52.10:703][350]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012222s)
+[2019.02.21-23.52.10:703][350]LogAIModule: Creating AISystem for world NewMap
+[2019.02.21-23.52.10:704][350]LogPlayLevel: PIE: World Init took: (0.001098s)
+[2019.02.21-23.52.10:704][350]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.013607s)
+[2019.02.21-23.52.10:785][350]LogInit: XAudio2 using 'Headset (Grind Wireless Hands-Free)' : 1 channels at 16 kHz using 16 bits per sample (channel mask 0x4)
+[2019.02.21-23.52.10:794][350]LogAudio: Error: CreateSubmixVoice (Reverb) error: XAPO Creation Failed
+[2019.02.21-23.52.10:794][350]LogInit: FAudioDevice initialized.
+[2019.02.21-23.52.10:834][350]LogLoad: Game class is 'GameModeBase'
+[2019.02.21-23.52.10:837][350]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2019.02.21-23.52.10
+[2019.02.21-23.52.10:838][350]LogWorld: Bringing up level for play took: 0.002260
+[2019.02.21-23.52.10:851][350]LogTemp: Warning: SM_Chair_2 is at X=7.570 Y=-139.871 Z=20.063
+[2019.02.21-23.52.10:851][350]LogTemp: Warning: SM_TableRound_6 is at X=110.000 Y=-140.000 Z=20.000
+[2019.02.21-23.52.10:851][350]LogTemp: Warning: SM_Chair2_10 is at X=150.000 Y=-230.000 Z=20.000
+[2019.02.21-23.52.10:852][350]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.754
+[2019.02.21-23.52.10:852][350]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.21-23.53.08:468][624]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.21-23.53.08:468][624]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.21-23.53.08:531][624]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.21-23.53.08:531][624]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.21-23.53.08:572][624]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.21-23.53.08:632][625]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2019.02.21-23.53.20:867][972]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-23.53.40:011][531]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-23.54.05:364][547]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-23.54.11:892][757]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.21-23.54.53:875][ 63]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.02.21-23.55.00:960][336]Cmd: DELETE
+[2019.02.21-23.55.00:960][336]Cmd: ACTOR DELETE
+[2019.02.21-23.55.00:970][336]LogEditorActor: Deleted Actor: Brush
+[2019.02.21-23.55.01:984][336]LogEditorActor: Deleted 1 Actors (1.023 secs)
+[2019.02.21-23.55.03:224][385]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-23.55.04:430][432]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.02.21-23.55.05:942][493]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x318)
+[2019.02.21-23.55.20:142][ 29]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x402)
+[2019.02.21-23.56.24:168][473]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.02.21-23.56.44:625][281]Cmd: TRANSACTION UNDO
+[2019.02.21-23.56.44:625][281]LogEditorTransaction: Undo Move Actors
+[2019.02.21-23.56.55:180][636]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x402)
+[2019.02.21-23.57.00:146][791]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-23.57.39:592][154]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-23.57.40:561][184]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.02.21-23.58.08:900][270]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-23.58.14:807][582]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.21-23.58.23:639][ 80]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.21-23.58.39:772][975]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-23.59.15:852][328]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-23.59.22:469][491]LogActorFactory: Actor Factory created Wall_400x300
+[2019.02.21-23.59.24:504][565]LogActorFactory: Actor Factory created Wall_400x300
+[2019.02.22-00.00.35:882][120]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.22-00.00.36:114][123]LogActorFactory: Actor Factory created Wall_400x400
+[2019.02.22-00.00.40:335][274]LogActorFactory: Actor Factory created Wall_400x400
+[2019.02.22-00.00.51:035][646]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x302)
+[2019.02.22-00.00.52:044][678]Cmd: DELETE
+[2019.02.22-00.00.52:044][678]Cmd: ACTOR DELETE
+[2019.02.22-00.00.52:054][678]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.02.22-00.00.52:083][678]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2019.02.22-00.00.52:712][702]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x400)
+[2019.02.22-00.01.42:074][446]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x400)
+[2019.02.22-00.01.42:142][446]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.22-00.01.44:216][501]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x400)
+[2019.02.22-00.01.58:166][970]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.22-00.02.05:975][225]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.22-00.02.11:816][411]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.22-00.02.13:582][471]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x400)
+[2019.02.22-00.02.20:181][682]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.22-00.02.31:364][912]Cmd: TRANSACTION UNDO
+[2019.02.22-00.02.31:364][912]LogEditorTransaction: Undo Set Scale
+[2019.02.22-00.02.32:328][930]Cmd: TRANSACTION UNDO
+[2019.02.22-00.02.32:328][930]LogEditorTransaction: Undo Clicking on Actors
+[2019.02.22-00.02.34:285][981]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x400)
+[2019.02.22-00.02.37:490][ 44]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.22-00.03.45:632][ 85]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x400)
+[2019.02.22-00.03.57:608][472]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2019.02.22-00.03.57:727][472]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.22-00.03.59:359][512]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.02.22-00.04.02:809][615]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x400)
+[2019.02.22-00.04.37:815][676]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight9)
+[2019.02.22-00.05.19:692][882]LogEditorViewport: Clicking on Actor (LMB): Brush (Linear Stair Brush2)
+[2019.02.22-00.05.19:750][882]LogEditorViewport: Clicking on Actor (double click): Brush (Linear Stair Brush2)
+[2019.02.22-00.05.44:081][588]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x400)
+[2019.02.22-00.07.02:748][695]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.02.22-00.07.28:953][446]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.22-00.07.29:000][447]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.22-00.07.29:036][447]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.22-00.07.29:036][447]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.22-00.07.29:036][447]PIE: New page: PIE session: NewMap (22 Feb 2019 00:07:29)
+[2019.02.22-00.07.29:361][447]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.02.22-00.07.29:375][447]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014272s)
+[2019.02.22-00.07.29:376][447]LogAIModule: Creating AISystem for world NewMap
+[2019.02.22-00.07.29:376][447]LogPlayLevel: PIE: World Init took: (0.001096s)
+[2019.02.22-00.07.29:376][447]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.015672s)
+[2019.02.22-00.07.29:446][447]LogInit: XAudio2 using 'Headset (Grind Wireless Hands-Free)' : 1 channels at 16 kHz using 16 bits per sample (channel mask 0x4)
+[2019.02.22-00.07.29:456][447]LogAudio: Error: CreateSubmixVoice (Reverb) error: XAPO Creation Failed
+[2019.02.22-00.07.29:456][447]LogInit: FAudioDevice initialized.
+[2019.02.22-00.07.29:491][447]LogLoad: Game class is 'GameModeBase'
+[2019.02.22-00.07.29:493][447]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.02.22-00.07.29:493][447]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.02.22-00.07.29:495][447]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2019.02.22-00.07.29
+[2019.02.22-00.07.29:495][447]LogWorld: Bringing up level for play took: 0.003089
+[2019.02.22-00.07.29:509][447]LogTemp: Warning: SM_Chair_2 is at X=7.570 Y=-139.871 Z=20.063
+[2019.02.22-00.07.29:510][447]LogTemp: Warning: SM_TableRound_6 is at X=110.000 Y=-140.000 Z=20.000
+[2019.02.22-00.07.29:510][447]LogTemp: Warning: SM_Chair2_10 is at X=150.000 Y=-230.000 Z=20.000
+[2019.02.22-00.07.29:510][447]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 1.412
+[2019.02.22-00.07.29:510][447]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.22-00.07.40:772][765]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.22-00.07.40:772][765]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.22-00.07.40:841][765]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.22-00.07.40:842][765]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.22-00.07.40:879][765]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.22-00.07.40:919][766]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2019.02.22-00.07.46:712][916]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x401)
+[2019.02.22-00.07.47:291][930]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.02.22-00.08.32:366][234]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x405)
+[2019.02.22-00.09.03:335][116]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.22-00.09.23:204][490]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x404)
+[2019.02.22-00.09.24:199][505]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.22-00.09.30:503][625]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x403)
+[2019.02.22-00.09.32:323][661]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.22-00.09.41:255][849]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x402)
+[2019.02.22-00.09.45:551][941]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.22-00.09.51:132][ 44]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x401)
+[2019.02.22-00.09.53:236][ 80]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.22-00.10.23:514][873]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2019.02.22-00.10.30:188][ 51]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x401)
+[2019.02.22-00.10.44:071][334]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x402)
+[2019.02.22-00.11.19:001][ 39]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.22-00.11.42:641][471]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.22-00.11.47:025][554]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.22-00.11.48:979][591]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.22-00.11.50:558][621]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.22-00.11.52:058][649]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.22-00.11.56:443][741]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x400)
+[2019.02.22-00.11.57:939][768]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.22-00.12.54:775][918]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.22-00.13.05:033][127]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.22-00.13.32:016][542]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x302)
+[2019.02.22-00.13.57:905][150]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.22-00.14.16:459][503]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.22-00.14.20:386][573]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.22-00.14.22:558][615]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.22-00.14.31:003][780]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.02.22-00.14.31:877][794]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.22-00.14.40:502][984]LogEditorViewport: Clicking on Actor (LMB): Brush (Linear Stair Brush2)
+[2019.02.22-00.14.41:395][  0]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.22-00.14.43:057][ 30]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.22-00.14.44:495][ 55]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.22-00.14.47:633][111]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.22-00.14.50:877][168]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.22-00.14.52:839][204]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.22-00.14.54:778][239]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.22-00.15.25:821][457]LogSavePackage: Moving '../../../../../../local code repos/unreal/unreal_udemy_course/03_building_escape/BuildingEscape/Saved/NewMap_Auto677F1C8854790A2479317F1AB9DDFF714.tmp' to '../../../../../../local code repos/unreal/unreal_udemy_course/03_building_escape/BuildingEscape/Saved/Autosaves/Game/NewMap_Auto6.umap'
+[2019.02.22-00.15.25:835][457]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.548
+[2019.02.22-00.15.25:835][457]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.548
+[2019.02.22-00.15.30:303][472]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.22-00.15.30:566][472]MapCheck: New page: Map Check
+[2019.02.22-00.15.30:582][472]Cmd: MAP REBUILD ALLVISIBLE
+[2019.02.22-00.15.30:587][472]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.02.22-00.15.31:037][472]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Floor_Walnut_Worn, compiling. 
+[2019.02.22-00.15.31:050][472]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.22-00.15.31:050][472]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2019.02.22-00.15.31:064][472]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Chair, compiling. 
+[2019.02.22-00.15.31:077][472]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_TableRound, compiling. 
+[2019.02.22-00.15.31:089][472]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_MaterialSphere_Plain, compiling. 
+[2019.02.22-00.15.31:102][472]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_MaterialSphere, compiling. 
+[2019.02.22-00.15.31:112][472]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Frame, compiling. 
+[2019.02.22-00.15.31:121][472]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Door, compiling. 
+[2019.02.22-00.15.31:131][472]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
+[2019.02.22-00.15.31:142][472]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Tech_Hex_Tile, compiling. 
+[2019.02.22-00.15.31:154][472]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Brick_Clay_New, compiling. 
+[2019.02.22-00.15.31:163][472]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Lamp, compiling. 
+[2019.02.22-00.15.31:173][472]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Concrete_Panels, compiling. 
+[2019.02.22-00.15.31:184][472]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Brick_Cut_Stone, compiling. 
+[2019.02.22-00.15.34:196][472]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.02.22-00.15.34:196][472]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.02.22-00.15.34:196][472]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.02.22-00.15.34:196][472]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.02.22-00.15.34:196][472]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.02.22-00.15.34:196][472]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.02.22-00.15.34:196][472]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.02.22-00.15.34:196][472]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.02.22-00.15.34:196][472]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.02.22-00.15.34:196][472]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.02.22-00.15.34:196][472]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.02.22-00.15.34:196][472]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.22-00.15.34:196][472]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.22-00.15.34:196][472]TextureStreamingBuild: Display: Compiling optional shaders took 3.166 seconds.
+[2019.02.22-00.15.34:270][472]LogLevel: Display: Export Material TexCoord Scales took 0.073 seconds.
+[2019.02.22-00.15.34:311][472]TextureStreamingBuild: Display: Build Texture Streaming took 0.041 seconds.
+[2019.02.22-00.15.34:342][472]LightingResults: New page: Lighting Build - 22 Feb 2019 00:15:34
+[2019.02.22-00.15.34:594][472]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.02.22-00.15.34:602][472]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.02.22-00.15.34:603][472]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.02.22-00.15.34:606][472]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.02.22-00.15.34:606][472]LogSwarmInterface: [TryOpenConnection] Local Process ID is 17452
+[2019.02.22-00.15.36:258][472]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2019.02.22-00.15.36:258][472]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.02.22-00.15.36:258][472]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.02.22-00.15.36:258][472]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.02.22-00.15.36:258][472]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.02.22-00.15.36:258][472]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.02.22-00.15.36:527][472]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.02.22-00.15.36:527][472]MapCheck: New page: NewMap - 22 Feb 2019 00:15:36
+[2019.02.22-00.15.36:528][472]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2019.02.22-00.15.36:530][472]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 2.57ms to complete.
+[2019.02.22-00.15.36:554][472]LogEditorBuildUtils: Build time 0:05
+[2019.02.22-00.15.36:562][472]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.22-00.15.36:716][473]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Brick_Cut_Stone, compiling. 
+[2019.02.22-00.15.36:732][473]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.22-00.15.36:732][473]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Brick_Cut_Stone, compiling. 
+[2019.02.22-00.15.36:787][473]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.22-00.15.40:079][501]LogSlate: Window 'Message Log' being destroyed
+[2019.02.22-00.15.40:163][501]LogSlate: Window 'Message Log' being destroyed
+[2019.02.22-00.15.43:977][540]Cmd: POLY SELECT ADJACENT ALL
+[2019.02.22-00.15.46:495][560]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.22-00.15.57:494][663]Job is a success!
+[2019.02.22-00.15.57:672][664]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.22-00.15.57:753][664]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.014s
+[2019.02.22-00.15.57:754][664]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2019.02.22-00.15.57:754][664]LogVolumetricLightmapImport:      BrickData 85x5x5 = 0.1Mb
+[2019.02.22-00.15.57:754][664]LogVolumetricLightmapImport:      Bricks at Level
+[2019.02.22-00.15.57:754][664]LogVolumetricLightmapImport:          0: 5.9% covering 100.0% of volume
+[2019.02.22-00.15.57:754][664]LogVolumetricLightmapImport:          1: 5.9% covering 1.6% of volume
+[2019.02.22-00.15.57:754][664]LogVolumetricLightmapImport:          2: 88.2% covering 0.4% of volume
+[2019.02.22-00.15.57:888][664]LightingResults: Warning: PointLight_8 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2019.02.22-00.15.57:888][664]LightingResults: Warning: PointLight_10 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2019.02.22-00.15.57:888][664]LightingResults: Warning: PointLight_11 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2019.02.22-00.15.57:888][664]LightingResults: Warning: PointLight_9 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2019.02.22-00.15.58:597][664]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2019.02.22-00.15.58:597][664]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2019.02.22-00.15.58:597][664]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 512X512)
+[2019.02.22-00.15.58:597][664]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 128X128)
+[2019.02.22-00.15.58:597][664]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 512X512)
+[2019.02.22-00.15.58:597][664]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 128X128)
+[2019.02.22-00.15.58:597][664]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 64X64)
+[2019.02.22-00.15.58:597][664]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 64X64)
+[2019.02.22-00.15.58:795][664]LogTexture: Display: Building textures: ShadowMapTexture2D_12 (G8, 32X32)
+[2019.02.22-00.15.58:795][664]LogTexture: Display: Building textures: ShadowMapTexture2D_11 (BGRA8, 64X64)
+[2019.02.22-00.15.58:962][664]LogTexture: Display: Building textures: ShadowMapTexture2D_10 (BGRA8, 1024X1024)
+[2019.02.22-00.15.58:994][664]Lightmass on DESKTOP-R8IGI29: 19.9 sec total, 659 ms importing, 83 ms setup, 1.35 sec photons, 17.7 sec processing, 0 ms extra exporting [91/91 mappings]. Threads: 2:03 min total, 1:30 min processing.
+[2019.02.22-00.15.59:090][664]LogStaticLightingSystem: Illumination: 24.6 sec (709 ms encoding lightmaps, 356 ms encoding shadowmaps)
+[2019.02.22-00.15.59:090][664]LogStaticLightingSystem: Lightmap texture memory:  2.5 MB (2.5 MB streaming, 0.0 MB non-streaming), 8 textures
+[2019.02.22-00.15.59:090][664]LogStaticLightingSystem: Shadowmap texture memory: 5.4 MB (5.3 MB streaming, 0.0 MB non-streaming), 3 textures
+[2019.02.22-00.15.59:282][664]DumpUnbuiltLightIteractions
+[2019.02.22-00.15.59:282][664]Lights with unbuilt interactions: 0
+[2019.02.22-00.15.59:282][664]
+[2019.02.22-00.15.59:282][664]Primitives with unbuilt interactions: 0
+[2019.02.22-00.15.59:505][665]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.02.22-00.15.59:505][665]MapCheck: New page: NewMap - 22 Feb 2019 00:15:59
+[2019.02.22-00.15.59:508][665]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 3.148ms to complete.
+[2019.02.22-00.16.01:294][705]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.22-00.16.01:384][707]LogSlate: Window 'Message Log' being destroyed
+[2019.02.22-00.16.01:439][707]LogSlate: Window 'Message Log' being destroyed
+[2019.02.22-00.16.02:388][732]LogEditorViewport: Clicking Background
+[2019.02.22-00.16.03:517][762]Cmd: POLY SELECT ADJACENT ALL
+[2019.02.22-00.16.05:984][818]Cmd: POLY SELECT ADJACENT ALL
+[2019.02.22-00.16.07:466][845]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.22-00.16.08:905][873]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2019.02.22-00.16.09:078][873]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.22-00.16.09:686][884]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.02.22-00.16.22:436][143]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.22-00.16.23:574][162]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2019.02.22-00.16.26:062][211]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.22-00.16.33:798][373]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.22-00.16.33:834][373]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.22-00.16.33:834][373]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.22-00.16.33:834][373]PIE: New page: PIE session: NewMap (22 Feb 2019 00:16:33)
+[2019.02.22-00.16.33:835][373]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.02.22-00.16.33:863][373]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027701s)
+[2019.02.22-00.16.33:864][373]LogAIModule: Creating AISystem for world NewMap
+[2019.02.22-00.16.33:865][373]LogPlayLevel: PIE: World Init took: (0.001685s)
+[2019.02.22-00.16.33:865][373]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.029816s)
+[2019.02.22-00.16.33:971][373]LogInit: XAudio2 using 'Headset (Grind Wireless Hands-Free)' : 1 channels at 16 kHz using 16 bits per sample (channel mask 0x4)
+[2019.02.22-00.16.33:983][373]LogAudio: Error: CreateSubmixVoice (Reverb) error: XAPO Creation Failed
+[2019.02.22-00.16.33:983][373]LogInit: FAudioDevice initialized.
+[2019.02.22-00.16.34:021][373]LogLoad: Game class is 'GameModeBase'
+[2019.02.22-00.16.34:025][373]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2019.02.22-00.16.34
+[2019.02.22-00.16.34:026][373]LogWorld: Bringing up level for play took: 0.003434
+[2019.02.22-00.16.34:040][373]LogTemp: Warning: SM_Chair_2 is at X=7.570 Y=-139.871 Z=20.063
+[2019.02.22-00.16.34:040][373]LogTemp: Warning: SM_TableRound_6 is at X=110.000 Y=-140.000 Z=20.000
+[2019.02.22-00.16.34:040][373]LogTemp: Warning: SM_Chair2_10 is at X=150.000 Y=-230.000 Z=20.000
+[2019.02.22-00.16.34:040][373]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.058
+[2019.02.22-00.16.34:041][373]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.22-00.17.12:887][493]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.22-00.17.12:887][493]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.22-00.17.12:974][493]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.22-00.17.12:974][493]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.22-00.17.13:016][493]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.22-00.17.13:056][494]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2019.02.22-00.17.29:183][966]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.22-00.17.29:661][969]LogSavePackage: Moving '../../../../../../local code repos/unreal/unreal_udemy_course/03_building_escape/BuildingEscape/Saved/NewMapF5DCA38041036681771E97B41A6F6BFC.tmp' to '../../../../../../local code repos/unreal/unreal_udemy_course/03_building_escape/BuildingEscape/Content/NewMap.umap'
+[2019.02.22-00.17.29:781][969]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="../../../../../../local code repos/unreal/unreal_udemy_course/03_building_escape/BuildingEscape/Content/NewMap_BuiltData.uasset" SILENT=true
+[2019.02.22-00.17.30:098][969]LogSavePackage: Moving '../../../../../../local code repos/unreal/unreal_udemy_course/03_building_escape/BuildingEscape/Saved/NewMap_BuiltData0B2A5AEF458C5B1429C1DFAA271B066E.tmp' to '../../../../../../local code repos/unreal/unreal_udemy_course/03_building_escape/BuildingEscape/Content/NewMap_BuiltData.uasset'
