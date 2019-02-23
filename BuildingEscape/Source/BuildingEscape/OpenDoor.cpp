@@ -1,7 +1,4 @@
 // Copyright Andrew Bruce 2019
-#include <thread>
-#include <chrono>
-
 #include "OpenDoor.h"
 #include "GameFramework/Actor.h"
 #include "Engine/World.h"
