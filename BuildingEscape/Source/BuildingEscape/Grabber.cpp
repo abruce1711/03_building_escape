@@ -5,6 +5,7 @@
 #include "GameFramework/Actor.h"
 #include "Engine/World.h"
 #include "GameFramework/PlayerController.h"
+#include "DrawDebugHelpers.h"
 
 // Blank macro
 #define OUT
@@ -38,12 +39,30 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 	// Get Player viewpoint
 	FVector PlayerViewPointLocation;
 	FRotator PlayerViewPointRotation;
+
 	// We are marking our out parameters with our blank OUT macro, it won't do anything it's just a reminder
 	// an out parameter will be changed by the function we pass them in to, it doesn't return anything it just changes what we pass in to it
 	GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(OUT PlayerViewPointLocation, OUT PlayerViewPointRotation);
-	// Log out every tick
-	UE_LOG(LogTemp, Warning, TEXT("Location: %s, Direction: %s"), *PlayerViewPointLocation.ToString(), *PlayerViewPointRotation.ToString());
 
+	// Log out every tick
+	//UE_LOG(LogTemp, Warning, TEXT("Location: %s, Direction: %s"),
+	//	*PlayerViewPointLocation.ToString(),
+	//	*PlayerViewPointRotation.ToString()
+	//)
+
+	FVector LineTraceEnd = PlayerViewPointLocation + PlayerViewPointRotation.Vector() * Reach;
+
+	// Draw a red trace in the world
+	DrawDebugLine(
+		GetWorld(),
+		PlayerViewPointLocation,
+		LineTraceEnd,
+		FColor(255, 0, 0),
+		false,
+		0.f,
+		0.f,
+		10.f
+	);
 	// Ray-cast out to reach distance
 
 	// See what we hit
