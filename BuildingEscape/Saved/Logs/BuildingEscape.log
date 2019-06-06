@@ -1650,3 +1650,414 @@ Please update your composite fonts to use localized sub-font families: https://d
 [2019.06.06-20.28.20:572][601]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
 [2019.06.06-20.28.20:614][603]LogPlayLevel: Display: Destroying online subsystem :Context_9
 [2019.06.06-20.31.27:139][265]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x403)
+[2019.06.06-20.35.52:679][381]LogSlate: Took 0.000304 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.06.06-20.36.01:783][408]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2019.06.06-20.36.02:052][408]LogSavePackage: Moving '../../../../../local code repos/unreal_udemy_course/03_building_escape/BuildingEscape/Saved/NewMap_Auto12EF6840045B69639F68A70865FE21808.tmp' to '../../../../../local code repos/unreal_udemy_course/03_building_escape/BuildingEscape/Saved/Autosaves/Game/NewMap_Auto1.umap'
+[2019.06.06-20.36.02:055][408]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.304
+[2019.06.06-20.36.02:055][408]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.304
+[2019.06.06-20.39.03:191][ 21]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-20.39.03:275][ 31]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.06-20.39.03:288][ 31]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-20.39.03:289][ 31]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.06-20.39.03:289][ 31]PIE: New page: PIE session: NewMap (6 Jun 2019 22:39:03)
+[2019.06.06-20.39.03:289][ 31]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.06.06-20.39.03:320][ 31]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030300s)
+[2019.06.06-20.39.03:320][ 31]LogAIModule: Creating AISystem for world NewMap
+[2019.06.06-20.39.03:321][ 31]LogPlayLevel: PIE: World Init took: (0.000839s)
+[2019.06.06-20.39.03:321][ 31]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.031643s)
+[2019.06.06-20.39.03:346][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2019.06.06-20.39.03:381][ 31]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.06-20.39.03:394][ 31]LogInit: FAudioDevice initialized.
+[2019.06.06-20.39.03:422][ 31]LogLoad: Game class is 'MyBuildingEscapeGameModeBase_BP_C'
+[2019.06.06-20.39.03:426][ 31]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.06.06-21.39.03
+[2019.06.06-20.39.03:426][ 31]LogWorld: Bringing up level for play took: 0.003215
+[2019.06.06-20.39.03:439][ 31]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.313
+[2019.06.06-20.39.03:440][ 31]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-20.39.12:974][169]LogRenderer: Reallocating scene render targets to support 1516x924 Format 10 NumSamples 1 (Frame:1116).
+[2019.06.06-20.39.17:910][758]LogTemp: Warning: BANG
+[2019.06.06-20.42.05:133][809]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-20.42.05:133][809]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.06-20.42.05:189][809]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.06-20.42.05:190][809]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-20.42.05:218][809]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.06-20.42.05:222][809]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2019.06.06-20.42.05:241][810]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.06.06-20.47.24:959][897]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x301)
+[2019.06.06-20.47.25:145][897]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.06-20.47.27:472][159]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.06-20.47.27:487][159]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-20.47.27:487][159]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.06-20.47.27:488][159]PIE: New page: PIE session: NewMap (6 Jun 2019 22:47:27)
+[2019.06.06-20.47.27:488][159]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.06.06-20.47.27:517][159]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028920s)
+[2019.06.06-20.47.27:517][159]LogAIModule: Creating AISystem for world NewMap
+[2019.06.06-20.47.27:517][159]LogPlayLevel: PIE: World Init took: (0.000707s)
+[2019.06.06-20.47.27:518][159]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.029799s)
+[2019.06.06-20.47.27:541][159]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2019.06.06-20.47.27:577][159]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.06-20.47.27:590][159]LogInit: FAudioDevice initialized.
+[2019.06.06-20.47.27:616][159]LogLoad: Game class is 'MyBuildingEscapeGameModeBase_BP_C'
+[2019.06.06-20.47.27:620][159]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.06.06-21.47.27
+[2019.06.06-20.47.27:620][159]LogWorld: Bringing up level for play took: 0.002947
+[2019.06.06-20.47.27:633][159]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.508
+[2019.06.06-20.47.27:634][159]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-20.47.28:353][242]LogTemp: Warning: BANG
+[2019.06.06-20.54.34:625][356]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-20.54.34:626][356]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.06-20.54.34:660][356]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.06-20.54.34:660][356]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-20.54.34:688][356]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.06-20.54.34:692][356]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2019.06.06-20.54.34:741][358]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.06.06-20.54.35:508][450]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-20.54.39:144][885]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-21.02.44:283][988]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-21.03.01:488][ 23]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-21.06.13:294][638]LogActorFactory: Actor Factory created SM_Lamp_Ceiling
+[2019.06.06-21.06.15:414][888]LogActorFactory: Actor Factory created SM_Lamp_Ceiling
+[2019.06.06-21.06.16:541][ 19]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2019.06.06-21.06.18:368][227]Cmd: DELETE
+[2019.06.06-21.06.18:368][227]Cmd: ACTOR DELETE
+[2019.06.06-21.06.18:429][227]LogEditorActor: Deleted Actor: PointLight
+[2019.06.06-21.06.18:454][227]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2019.06.06-21.06.18:454][227]LogEditorActor: Deleted 1 Actors (0.064 secs)
+[2019.06.06-21.06.20:274][438]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling3)
+[2019.06.06-21.06.21:968][613]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-21.06.22:235][636]LogActorFactory: Actor Factory created SM_Lamp_Wall
+[2019.06.06-21.06.23:390][771]LogActorFactory: Actor Factory created SM_Lamp_Wall
+[2019.06.06-21.06.24:444][894]Cmd: TRANSACTION UNDO
+[2019.06.06-21.06.24:444][894]LogEditorTransaction: Undo Create Actors
+[2019.06.06-21.06.24:834][930]Cmd: TRANSACTION UNDO
+[2019.06.06-21.06.24:834][930]LogEditorTransaction: Undo Clicking on Actors
+[2019.06.06-21.06.25:343][989]Cmd: TRANSACTION UNDO
+[2019.06.06-21.06.25:343][989]LogEditorTransaction: Undo Delete Actors
+[2019.06.06-21.06.33:711][805]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-21.07.04:549][250]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x406)
+[2019.06.06-21.07.06:924][522]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-21.07.15:234][461]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x300)
+[2019.06.06-21.07.16:892][652]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WindowFrame)
+[2019.06.06-21.07.17:667][738]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor_400x403)
+[2019.06.06-21.07.22:388][253]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x300)
+[2019.06.06-21.07.23:594][391]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WindowFrame)
+[2019.06.06-21.07.24:311][470]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor)
+[2019.06.06-21.07.26:854][756]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_400x309)
+[2019.06.06-21.07.28:015][889]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x300)
+[2019.06.06-21.07.33:354][454]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WindowFrame)
+[2019.06.06-21.07.38:654][ 78]Cmd: EDIT COPY
+[2019.06.06-21.07.39:262][150]Cmd: EDIT PASTE
+[2019.06.06-21.07.51:297][505]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-21.07.59:864][507]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-21.08.56:841][976]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x406)
+[2019.06.06-21.08.57:725][ 73]Cmd: DELETE
+[2019.06.06-21.08.57:725][ 73]Cmd: ACTOR DELETE
+[2019.06.06-21.08.57:729][ 73]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.06.06-21.08.57:753][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2019.06.06-21.08.57:753][ 73]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2019.06.06-21.09.03:262][685]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x303)
+[2019.06.06-21.09.07:029][124]Cmd: TRANSACTION UNDO
+[2019.06.06-21.09.07:029][124]LogEditorTransaction: Undo Move Actors
+[2019.06.06-21.09.09:929][388]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WindowFrame4)
+[2019.06.06-21.09.35:236][192]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-21.09.40:936][844]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x403)
+[2019.06.06-21.09.40:993][844]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.06-21.09.42:063][967]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.06.06-21.09.44:314][207]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x303)
+[2019.06.06-21.09.45:424][334]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WindowFrame4)
+[2019.06.06-21.10.13:735][576]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x303)
+[2019.06.06-21.10.15:352][763]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-21.10.19:933][306]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x303)
+[2019.06.06-21.10.21:778][523]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-21.10.52:177][150]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.06-21.10.52:212][150]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2019.06.06-21.10.52:476][150]LogSavePackage: Moving '../../../../../local code repos/unreal_udemy_course/03_building_escape/BuildingEscape/Saved/NewMap_Auto2D20FF9624B04D69A44747798A0F13897.tmp' to '../../../../../local code repos/unreal_udemy_course/03_building_escape/BuildingEscape/Saved/Autosaves/Game/NewMap_Auto2.umap'
+[2019.06.06-21.10.52:492][150]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.302
+[2019.06.06-21.10.52:492][150]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.302
+[2019.06.06-21.17.42:937][365]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-21.17.47:971][960]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-21.18.02:446][680]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-21.18.08:886][444]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-21.18.12:000][812]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.06.06-21.18.13:190][950]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x303)
+[2019.06.06-21.18.16:608][354]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-21.18.38:593][585]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x405)
+[2019.06.06-21.18.43:320][ 92]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame4)
+[2019.06.06-21.18.46:074][414]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-21.18.56:931][616]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-21.19.06:698][775]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-21.19.10:914][275]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-21.19.30:522][527]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame4)
+[2019.06.06-21.20.52:353][246]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.06-21.20.52:405][246]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2019.06.06-21.20.52:665][246]LogSavePackage: Moving '../../../../../local code repos/unreal_udemy_course/03_building_escape/BuildingEscape/Saved/NewMap_Auto3B17E32B24DC91B14EBB593B73F58B42F.tmp' to '../../../../../local code repos/unreal_udemy_course/03_building_escape/BuildingEscape/Saved/Autosaves/Game/NewMap_Auto3.umap'
+[2019.06.06-21.20.52:682][246]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.302
+[2019.06.06-21.20.52:682][246]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.302
+[2019.06.06-21.21.03:975][596]MapCheck: New page: Map Check
+[2019.06.06-21.21.03:987][596]Cmd: MAP REBUILD ALLVISIBLE
+[2019.06.06-21.21.03:988][596]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.06.06-21.21.04:068][596]LightingResults: New page: Lighting Build - 6 Jun 2019 23:21:04
+[2019.06.06-21.21.04:181][596]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.06.06-21.21.04:426][596]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.06.06-21.21.04:439][596]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.06.06-21.21.05:468][596]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.06.06-21.21.05:468][596]LogSwarmInterface: [TryOpenConnection] Local Process ID is 9848
+[2019.06.06-21.21.09:847][596]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2019.06.06-21.21.09:847][596]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.06.06-21.21.09:847][596]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.06.06-21.21.09:847][596]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.06.06-21.21.09:847][596]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.06.06-21.21.09:847][596]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.06.06-21.21.10:103][596]LogEditorBuildUtils: Build time 0:06
+[2019.06.06-21.21.10:279][600]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2019.06.06-21.21.12:930][748]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling3)
+[2019.06.06-21.21.13:941][827]Cmd: DELETE
+[2019.06.06-21.21.13:941][827]Cmd: ACTOR DELETE
+[2019.06.06-21.21.13:945][827]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.06.06-21.21.13:967][827]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2019.06.06-21.21.13:967][827]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2019.06.06-21.21.14:626][886]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2019.06.06-21.21.14:770][893]Cmd: DELETE
+[2019.06.06-21.21.14:770][893]Cmd: ACTOR DELETE
+[2019.06.06-21.21.14:773][893]LogEditorActor: Deleted Actor: PointLight
+[2019.06.06-21.21.14:795][893]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2019.06.06-21.21.14:796][893]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2019.06.06-21.21.20:267][355]Job is a success!
+[2019.06.06-21.21.20:301][357]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.06-21.21.20:341][357]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.010s
+[2019.06.06-21.21.20:341][357]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2019.06.06-21.21.20:341][357]LogVolumetricLightmapImport:      BrickData 90x5x5 = 0.1Mb
+[2019.06.06-21.21.20:341][357]LogVolumetricLightmapImport:      Bricks at Level
+[2019.06.06-21.21.20:341][357]LogVolumetricLightmapImport:          0: 5.6% covering 100.0% of volume
+[2019.06.06-21.21.20:341][357]LogVolumetricLightmapImport:          1: 5.6% covering 1.6% of volume
+[2019.06.06-21.21.20:341][357]LogVolumetricLightmapImport:          2: 88.9% covering 0.4% of volume
+[2019.06.06-21.21.21:860][357]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2019.06.06-21.21.21:860][357]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2019.06.06-21.21.21:860][357]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2019.06.06-21.21.21:860][357]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2019.06.06-21.21.21:860][357]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 128X128)
+[2019.06.06-21.21.21:860][357]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 128X128)
+[2019.06.06-21.21.21:860][357]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 64X64)
+[2019.06.06-21.21.21:860][357]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 64X64)
+[2019.06.06-21.21.22:060][357]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 32X32)
+[2019.06.06-21.21.22:060][357]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 64X64)
+[2019.06.06-21.21.22:141][357]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 1024X1024)
+[2019.06.06-21.21.22:174][357]Lightmass on DESKTOP-GKSST99: 11.0 sec total, 325 ms importing, 38 ms setup, 1.12 sec photons, 9.55 sec processing, 0 ms extra exporting [101/101 mappings]. Threads: 38.2 sec total, 21.4 sec processing.
+[2019.06.06-21.21.22:176][357]LogStaticLightingSystem: NewMap_BuiltData storing lightmap data for 56 meshes in 5 LightmapResourceClusters (11.2 Meshes per cluster).
+[2019.06.06-21.21.22:203][357]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2019.06.06-21.21.22:210][357]LogStaticLightingSystem: Illumination: 18.1 sec (1.41 sec encoding lightmaps, 272 ms encoding shadowmaps)
+[2019.06.06-21.21.22:210][357]LogStaticLightingSystem: Lightmap texture memory:  4.0 MB (4.0 MB streaming, 0.0 MB non-streaming), 8 textures
+[2019.06.06-21.21.22:210][357]LogStaticLightingSystem: Shadowmap texture memory: 5.4 MB (5.3 MB streaming, 0.0 MB non-streaming), 3 textures
+[2019.06.06-21.21.22:860][357]DumpUnbuiltLightIteractions
+[2019.06.06-21.21.22:861][357]Lights with unbuilt interactions: 0
+[2019.06.06-21.21.22:861][357]
+[2019.06.06-21.21.22:861][357]Primitives with unbuilt interactions: 0
+[2019.06.06-21.21.22:949][358]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.06.06-21.21.22:949][358]MapCheck: New page: NewMap - 6 Jun 2019 23:21:22
+[2019.06.06-21.21.22:966][358]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 17.483ms to complete.
+[2019.06.06-21.21.24:070][480]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.06-21.21.24:083][480]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-21.21.24:083][480]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.06-21.21.24:083][480]PIE: New page: PIE session: NewMap (6 Jun 2019 23:21:24)
+[2019.06.06-21.21.24:083][480]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.06.06-21.21.24:113][480]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029154s)
+[2019.06.06-21.21.24:114][480]LogAIModule: Creating AISystem for world NewMap
+[2019.06.06-21.21.24:114][480]LogPlayLevel: PIE: World Init took: (0.000939s)
+[2019.06.06-21.21.24:114][480]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.030555s)
+[2019.06.06-21.21.24:137][480]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2019.06.06-21.21.24:172][480]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.06-21.21.24:185][480]LogInit: FAudioDevice initialized.
+[2019.06.06-21.21.24:217][480]LogLoad: Game class is 'MyBuildingEscapeGameModeBase_BP_C'
+[2019.06.06-21.21.24:221][480]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.06.06-22.21.24
+[2019.06.06-21.21.24:221][480]LogWorld: Bringing up level for play took: 0.002804
+[2019.06.06-21.21.24:234][480]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 1.109
+[2019.06.06-21.21.24:235][480]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-21.21.26:035][691]LogTemp: Warning: BANG
+[2019.06.06-21.21.46:647][163]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-21.21.46:648][163]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.06-21.21.46:680][163]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.06-21.21.46:680][163]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-21.21.46:707][163]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.06-21.21.46:711][163]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2019.06.06-21.21.46:762][165]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.06.06-21.22.18:460][313]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-21.22.18:610][313]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.06-21.22.18:624][313]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-21.22.18:624][313]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.06-21.22.18:624][313]PIE: New page: PIE session: NewMap (6 Jun 2019 23:22:18)
+[2019.06.06-21.22.18:624][313]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.06.06-21.22.18:653][313]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028920s)
+[2019.06.06-21.22.18:653][313]LogAIModule: Creating AISystem for world NewMap
+[2019.06.06-21.22.18:654][313]LogPlayLevel: PIE: World Init took: (0.000739s)
+[2019.06.06-21.22.18:654][313]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.029821s)
+[2019.06.06-21.22.18:676][313]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2019.06.06-21.22.18:710][313]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.06-21.22.18:721][313]LogInit: FAudioDevice initialized.
+[2019.06.06-21.22.18:750][313]LogLoad: Game class is 'MyBuildingEscapeGameModeBase_BP_C'
+[2019.06.06-21.22.18:754][313]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.06.06-22.22.18
+[2019.06.06-21.22.18:754][313]LogWorld: Bringing up level for play took: 0.002873
+[2019.06.06-21.22.18:767][313]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.359
+[2019.06.06-21.22.18:767][313]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-21.22.20:232][469]LogTemp: Warning: BANG
+[2019.06.06-21.22.34:818][155]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x307)
+[2019.06.06-21.22.44:735][183]LogEditorViewport: Clicking on Actor (LMB): DefaultPawn_Blueprint_C (DefaultPawn_Blueprint)
+[2019.06.06-21.22.47:571][467]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-21.22.47:639][475]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-21.22.47:640][475]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.06-21.22.47:675][475]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.06-21.22.47:676][475]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-21.22.47:702][475]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.06-21.22.47:706][475]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2019.06.06-21.22.47:744][479]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.06.06-21.22.54:286][258]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/DefaultPawn_Blueprint.DefaultPawn_Blueprint
+[2019.06.06-21.22.54:761][258]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 121 classes and 0 folders.
+[2019.06.06-21.22.55:869][258]LogSlate: Took 0.003878 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.06.06-21.23.07:899][276]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.06-21.23.15:157][  1]LogBlueprintActionDatabase: Requesting refresh due to module change: HierarchicalLODUtilities (loaded)
+[2019.06.06-21.23.24:131][764]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-21.23.24:221][768]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DefaultPawn_Blueprint" FILE="../../../../../local code repos/unreal_udemy_course/03_building_escape/BuildingEscape/Content/DefaultPawn_Blueprint.uasset" SILENT=true
+[2019.06.06-21.23.24:249][768]LogSavePackage: Moving '../../../../../local code repos/unreal_udemy_course/03_building_escape/BuildingEscape/Saved/DefaultPawn_Blueprint8DA6F9B94EAFF0DC274717B892F34E68.tmp' to '../../../../../local code repos/unreal_udemy_course/03_building_escape/BuildingEscape/Content/DefaultPawn_Blueprint.uasset'
+[2019.06.06-21.23.24:796][819]BlueprintLog: New page: Compile DefaultPawn_Blueprint
+[2019.06.06-21.23.25:092][819]LogUObjectHash: Compacting FUObjectHashTables data took   7.86ms
+[2019.06.06-21.23.26:402][971]LogSlate: Window 'DefaultPawn_Blueprint' being destroyed
+[2019.06.06-21.23.26:406][971]LogSlate: Window 'DefaultPawn_Blueprint' being destroyed
+[2019.06.06-21.23.27:846][135]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.06-21.23.27:866][135]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-21.23.27:866][135]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.06-21.23.27:866][135]PIE: New page: PIE session: NewMap (6 Jun 2019 23:23:27)
+[2019.06.06-21.23.27:866][135]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.06.06-21.23.27:895][135]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028709s)
+[2019.06.06-21.23.27:896][135]LogAIModule: Creating AISystem for world NewMap
+[2019.06.06-21.23.27:896][135]LogPlayLevel: PIE: World Init took: (0.000782s)
+[2019.06.06-21.23.27:896][135]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.029681s)
+[2019.06.06-21.23.27:959][135]LogUObjectHash: Compacting FUObjectHashTables data took   6.20ms
+[2019.06.06-21.23.27:993][135]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.06-21.23.28:005][135]LogInit: FAudioDevice initialized.
+[2019.06.06-21.23.28:031][135]LogLoad: Game class is 'MyBuildingEscapeGameModeBase_BP_C'
+[2019.06.06-21.23.28:035][135]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.06.06-22.23.28
+[2019.06.06-21.23.28:035][135]LogWorld: Bringing up level for play took: 0.002970
+[2019.06.06-21.23.28:048][135]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.923
+[2019.06.06-21.23.28:048][135]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-21.23.31:159][505]LogTemp: Warning: BANG
+[2019.06.06-21.23.41:499][739]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-21.23.41:500][739]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.06-21.23.41:534][739]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.06-21.23.41:535][739]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-21.23.41:578][739]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.06-21.23.41:602][739]LogUObjectHash: Compacting FUObjectHashTables data took   4.30ms
+[2019.06.06-21.23.41:622][740]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.06.06-21.23.44:769][864]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-21.23.44:967][864]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.06-21.23.44:982][864]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-21.23.44:982][864]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.06-21.23.44:982][864]PIE: New page: PIE session: NewMap (6 Jun 2019 23:23:44)
+[2019.06.06-21.23.44:982][864]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.06.06-21.23.45:012][864]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029624s)
+[2019.06.06-21.23.45:013][864]LogAIModule: Creating AISystem for world NewMap
+[2019.06.06-21.23.45:013][864]LogPlayLevel: PIE: World Init took: (0.000652s)
+[2019.06.06-21.23.45:013][864]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.030472s)
+[2019.06.06-21.23.45:040][864]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2019.06.06-21.23.45:075][864]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.06-21.23.45:087][864]LogInit: FAudioDevice initialized.
+[2019.06.06-21.23.45:119][864]LogLoad: Game class is 'MyBuildingEscapeGameModeBase_BP_C'
+[2019.06.06-21.23.45:123][864]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.06.06-22.23.45
+[2019.06.06-21.23.45:123][864]LogWorld: Bringing up level for play took: 0.003092
+[2019.06.06-21.23.45:137][864]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.011
+[2019.06.06-21.23.45:137][864]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-21.23.46:125][977]LogTemp: Warning: BANG
+[2019.06.06-21.23.50:667][501]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
+[2019.06.06-21.23.53:627][842]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-21.23.53:628][842]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.06-21.23.53:663][842]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.06-21.23.53:664][842]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-21.23.53:697][842]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.06-21.23.53:702][842]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2019.06.06-21.23.53:750][844]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.06.06-21.23.55:748][ 83]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-21.23.55:871][ 97]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/DefaultPawn_Blueprint.DefaultPawn_Blueprint
+[2019.06.06-21.24.00:746][553]LogSlate: Window 'DefaultPawn_Blueprint' being destroyed
+[2019.06.06-21.24.00:749][553]LogSlate: Window 'DefaultPawn_Blueprint' being destroyed
+[2019.06.06-21.24.03:601][886]Cmd: TRANSACTION UNDO
+[2019.06.06-21.24.03:601][886]LogEditorTransaction: Undo Modify Component(s)
+[2019.06.06-21.24.06:768][261]Cmd: TRANSACTION UNDO
+[2019.06.06-21.24.06:769][261]LogEditorTransaction: Undo Edit Static Mesh
+[2019.06.06-21.25.14:993][432]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-21.25.15:142][449]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/DefaultPawn_Blueprint.DefaultPawn_Blueprint
+[2019.06.06-21.26.17:547][895]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-21.26.38:504][795]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DefaultPawn_Blueprint" FILE="../../../../../local code repos/unreal_udemy_course/03_building_escape/BuildingEscape/Content/DefaultPawn_Blueprint.uasset" SILENT=true
+[2019.06.06-21.26.38:529][795]LogSavePackage: Moving '../../../../../local code repos/unreal_udemy_course/03_building_escape/BuildingEscape/Saved/DefaultPawn_Blueprint8CC1316649DF867524A1409EC6B8A7B4.tmp' to '../../../../../local code repos/unreal_udemy_course/03_building_escape/BuildingEscape/Content/DefaultPawn_Blueprint.uasset'
+[2019.06.06-21.26.39:014][841]BlueprintLog: New page: Compile DefaultPawn_Blueprint
+[2019.06.06-21.26.39:038][841]LogSpawn: Warning: UWorld::DestroyActor: World has no context! World: World_5, Actor: /Engine/Transient.World_5:PersistentLevel.REINST_DefaultPawn_Blueprint_C_1
+[2019.06.06-21.26.39:223][841]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2019.06.06-21.26.40:662][  9]LogSlate: Window 'DefaultPawn_Blueprint' being destroyed
+[2019.06.06-21.26.40:666][  9]LogSlate: Window 'DefaultPawn_Blueprint' being destroyed
+[2019.06.06-21.26.42:613][233]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.06-21.26.42:633][233]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-21.26.42:633][233]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.06-21.26.42:634][233]PIE: New page: PIE session: NewMap (6 Jun 2019 23:26:42)
+[2019.06.06-21.26.42:634][233]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.06.06-21.26.42:663][233]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029524s)
+[2019.06.06-21.26.42:664][233]LogAIModule: Creating AISystem for world NewMap
+[2019.06.06-21.26.42:664][233]LogPlayLevel: PIE: World Init took: (0.000674s)
+[2019.06.06-21.26.42:664][233]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.030423s)
+[2019.06.06-21.26.42:696][233]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2019.06.06-21.26.42:731][233]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.06-21.26.42:742][233]LogInit: FAudioDevice initialized.
+[2019.06.06-21.26.42:775][233]LogLoad: Game class is 'MyBuildingEscapeGameModeBase_BP_C'
+[2019.06.06-21.26.42:778][233]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.06.06-22.26.42
+[2019.06.06-21.26.42:779][233]LogWorld: Bringing up level for play took: 0.003031
+[2019.06.06-21.26.42:792][233]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.333
+[2019.06.06-21.26.42:792][233]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-21.26.44:038][379]LogTemp: Warning: BANG
+[2019.06.06-21.27.23:654][128]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-21.27.23:654][128]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.06-21.27.23:687][128]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.06-21.27.23:688][128]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-21.27.23:722][128]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.06-21.27.23:728][128]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2019.06.06-21.27.23:778][130]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2019.06.06-21.30.17:147][696]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.06.06-21.30.32:151][445]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x303)
+[2019.06.06-21.30.33:055][527]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WindowFrame4)
+[2019.06.06-21.30.56:413][149]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-21.31.06:906][269]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-21.31.21:024][849]Cmd: DELETE
+[2019.06.06-21.31.21:024][849]Cmd: ACTOR DELETE
+[2019.06.06-21.31.21:027][849]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.06.06-21.31.21:028][849]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.06.06-21.31.21:058][849]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2019.06.06-21.31.21:059][849]LogEditorActor: Deleted 2 Actors (0.036 secs)
+[2019.06.06-21.31.33:288][782]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-21.31.33:599][782]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.06-21.31.33:613][782]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-21.31.33:614][782]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.06-21.31.33:614][782]PIE: New page: PIE session: NewMap (6 Jun 2019 23:31:33)
+[2019.06.06-21.31.33:614][782]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.06.06-21.31.33:644][782]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030062s)
+[2019.06.06-21.31.33:645][782]LogAIModule: Creating AISystem for world NewMap
+[2019.06.06-21.31.33:645][782]LogPlayLevel: PIE: World Init took: (0.000852s)
+[2019.06.06-21.31.33:645][782]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.031173s)
+[2019.06.06-21.31.33:676][782]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2019.06.06-21.31.33:711][782]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.06-21.31.33:723][782]LogInit: FAudioDevice initialized.
+[2019.06.06-21.31.33:756][782]LogLoad: Game class is 'MyBuildingEscapeGameModeBase_BP_C'
+[2019.06.06-21.31.33:760][782]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.06.06-22.31.33
+[2019.06.06-21.31.33:760][782]LogWorld: Bringing up level for play took: 0.003093
+[2019.06.06-21.31.33:774][782]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.648
+[2019.06.06-21.31.33:774][782]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-21.31.34:579][862]LogTemp: Warning: BANG
+[2019.06.06-21.31.36:655][111]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-21.31.36:656][111]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.06-21.31.36:690][111]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.06-21.31.36:691][111]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-21.31.36:724][111]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.06-21.31.36:730][111]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2019.06.06-21.31.36:782][113]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2019.06.06-21.32.02:945][369]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.06-21.32.07:668][909]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.06-21.32.07:674][909]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../local code repos/unreal_udemy_course/03_building_escape/BuildingEscape/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.06.06-21.32.07:705][909]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2019.06.06-21.32.08:020][909]LogSavePackage: Moving '../../../../../local code repos/unreal_udemy_course/03_building_escape/BuildingEscape/Saved/NewMap8A1F516C466FA0546DBF92B0431EBF87.tmp' to '../../../../../local code repos/unreal_udemy_course/03_building_escape/BuildingEscape/Content/NewMap.umap'
+[2019.06.06-21.32.08:050][909]LogFileHelpers: Saving map 'NewMap' took 0.377
+[2019.06.06-21.32.08:052][909]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="../../../../../local code repos/unreal_udemy_course/03_building_escape/BuildingEscape/Content/NewMap_BuiltData.uasset" SILENT=true
+[2019.06.06-21.32.08:277][909]LogSavePackage: Moving '../../../../../local code repos/unreal_udemy_course/03_building_escape/BuildingEscape/Saved/NewMap_BuiltData3BD2D4544B3E5335F4FD57B090B65EFA.tmp' to '../../../../../local code repos/unreal_udemy_course/03_building_escape/BuildingEscape/Content/NewMap_BuiltData.uasset'
+[2019.06.06-21.32.10:270][ 23]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-21.32.12:708][200]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
