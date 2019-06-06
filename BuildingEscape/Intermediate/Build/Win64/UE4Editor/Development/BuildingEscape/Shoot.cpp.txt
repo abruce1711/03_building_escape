@@ -1,0 +1,3 @@
+E:\local code repos\unreal_udemy_course\03_building_escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\Definitions.BuildingEscape.h
+e:\local code repos\unreal_udemy_course\03_building_escape\buildingescape\source\buildingescape\Shoot.h
+E:\local code repos\unreal_udemy_course\03_building_escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Inc\BuildingEscape\Shoot.generated.h

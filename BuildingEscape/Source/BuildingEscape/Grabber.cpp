@@ -16,8 +16,6 @@ UGrabber::UGrabber()
 	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
-
-	// ...
 }
 
 
@@ -25,9 +23,8 @@ UGrabber::UGrabber()
 void UGrabber::BeginPlay()
 {
 	Super::BeginPlay();
-
-	// ...
-	
+	FindPhysicsHandleComponent();
+	SetupInputComponent();
 }
 
 
@@ -36,35 +33,84 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	// Get Player viewpoint
+	// If physics handle is attached
+		// move the object that we're holding
+}
+
+// Grab method
+void UGrabber::Grab()
+{
+	UE_LOG(LogTemp, Warning, TEXT("Grab Pressed"));
+
+	// LINE TRACE and and check if we can reach any actors with physics body collision channel set
+	GetFirstPhysicsBodyInReach();
+
+	// If we hit something attach a physics handle
+}
+
+// Release grabber
+void UGrabber::Release()
+{
+	UE_LOG(LogTemp, Warning, TEXT("Grab Released"));
+	// Release physics handle
+}
+
+// Look for attached physics handle
+void UGrabber::FindPhysicsHandleComponent()
+{
+	PhysicsHandle = GetOwner()->FindComponentByClass<UPhysicsHandleComponent>();
+	if (!PhysicsHandle)
+		UE_LOG(LogTemp, Error, TEXT("Cannot find physics handle on component: %s"), *GetOwner()->GetName());
+}
+
+// Look for attached input component
+void UGrabber::SetupInputComponent()
+{
+	InputComp = GetOwner()->FindComponentByClass <UInputComponent>();
+	if (InputComp)
+	{
+		UE_LOG(LogTemp, Error, TEXT("Input component found"));
+
+		// Bind the input actions
+		InputComp->BindAction("Grab", IE_Pressed, this, &UGrabber::Grab);
+		InputComp->BindAction("Grab", IE_Released, this, &UGrabber::Release);
+	}
+	else
+	{
+		UE_LOG(LogTemp, Error, TEXT("Cannot find input component on %s"), *GetOwner()->GetName());
+	}
+}
+
+// Return hit for first physics body in reach
+const FHitResult UGrabber::GetFirstPhysicsBodyInReach()
+{
 	FVector PlayerViewPointLocation;
 	FRotator PlayerViewPointRotation;
 
-	// We are marking our out parameters with our blank OUT macro, it won't do anything it's just a reminder
-	// an out parameter will be changed by the function we pass them in to, it doesn't return anything it just changes what we pass in to it
+	// Assigns the value of the GetPlayerViewPoint to our OUT variables
 	GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(OUT PlayerViewPointLocation, OUT PlayerViewPointRotation);
 
-	// Log out every tick
-	//UE_LOG(LogTemp, Warning, TEXT("Location: %s, Direction: %s"),
-	//	*PlayerViewPointLocation.ToString(),
-	//	*PlayerViewPointRotation.ToString()
-	//)
-
+	// Sets the end of the line trace
 	FVector LineTraceEnd = PlayerViewPointLocation + PlayerViewPointRotation.Vector() * Reach;
 
-	// Draw a red trace in the world
-	DrawDebugLine(
-		GetWorld(),
+	// Setup query params - ignores oursevles, the false is to detailed collision, false means simple
+	FCollisionQueryParams TraceParams(FName(TEXT("")), false, GetOwner());
+
+	// Ray-cast out to reach distance
+	FHitResult Hit;
+	GetWorld()->LineTraceSingleByObjectType(
+		OUT Hit,
 		PlayerViewPointLocation,
 		LineTraceEnd,
-		FColor(255, 0, 0),
-		false,
-		0.f,
-		0.f,
-		10.f
+		// Means it will only collide with object that are of the type physics body
+		FCollisionObjectQueryParams(ECollisionChannel::ECC_PhysicsBody),
+		TraceParams
 	);
-	// Ray-cast out to reach distance
 
-	// See what we hit
+	AActor* ActorHit = Hit.GetActor();
+	if (ActorHit)
+		UE_LOG(LogTemp, Warning, TEXT("Grab: %s"), *(ActorHit->GetName()))
+	
+	return FHitResult();
 }
 

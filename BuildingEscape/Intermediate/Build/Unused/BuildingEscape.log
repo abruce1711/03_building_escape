@@ -1,16 +1,11 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\local code repos\unreal\unreal_udemy_course\03_building_escape).
-  Creating makefile for hot reloading BuildingEscapeEditor (source directory changed)
-  Compiling game modules for hot reload
-  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\local code repos\unreal_udemy_course\03_building_escape).
   Parsing headers for BuildingEscapeEditor
-    Running UnrealHeaderTool "D:\local code repos\unreal\unreal_udemy_course\03_building_escape\BuildingEscape\BuildingEscape.uproject" "D:\local code repos\unreal\unreal_udemy_course\03_building_escape\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for BuildingEscapeEditor in 27.4649743 seconds
-  Building 4 actions with 8 processes...
+    Running UnrealHeaderTool "E:\local code repos\unreal_udemy_course\03_building_escape\BuildingEscape\BuildingEscape.uproject" "E:\local code repos\unreal_udemy_course\03_building_escape\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for BuildingEscapeEditor in 6.7246915 seconds
+  Using Visual Studio 2017 14.16.27023 toolchain (E:\Applications\Visual Studio\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (E:\Windows Kits\10).
+  Building 4 actions with 4 processes...
     [1/4] Grabber.cpp
-    [2/4] Grabber.gen.cpp
-    [3/4] UE4Editor-BuildingEscape-5961.lib
-       Creating library D:\local code repos\unreal\unreal_udemy_course\03_building_escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-5961.lib and object D:\local code repos\unreal\unreal_udemy_course\03_building_escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-5961.exp
-    [4/4] UE4Editor-BuildingEscape-5961.dll
-       Creating library D:\local code repos\unreal\unreal_udemy_course\03_building_escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-5961.suppressed.lib and object D:\local code repos\unreal\unreal_udemy_course\03_building_escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-5961.suppressed.exp
-  Deploying BuildingEscapeEditor Win64 Development...
-  Total build time: 238.18 seconds (Parallel executor: 117.63 seconds)
+E:\local code repos\unreal_udemy_course\03_building_escape\BuildingEscape\Source\BuildingEscape\Grabber.cpp(54): error C2039: 'Realase': is not a member of 'UGrabber'
+    e:\local code repos\unreal_udemy_course\03_building_escape\buildingescape\source\buildingescape\Grabber.h(11): note: see declaration of 'UGrabber'
+E:\local code repos\unreal_udemy_course\03_building_escape\BuildingEscape\Source\BuildingEscape\Grabber.cpp(54): error C2065: 'Realase': undeclared identifier
+E:\Applications\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3075: The command "E:\Applications\UE_4.22\Engine\Build\BatchFiles\Build.bat BuildingEscapeEditor Win64 Development -Project="E:\local code repos\unreal_udemy_course\03_building_escape\BuildingEscape\BuildingEscape.uproject" -WaitMutex -FromMsBuild" exited with code 5. Please verify that you have sufficient rights to run this command.

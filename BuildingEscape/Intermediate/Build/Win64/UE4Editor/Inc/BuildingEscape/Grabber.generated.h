@@ -1,4 +1,4 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -80,6 +80,8 @@ public: \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
+
+template<> BUILDINGESCAPE_API UClass* StaticClass<class UGrabber>();
 
 #undef CURRENT_FILE_ID
 #define CURRENT_FILE_ID BuildingEscape_Source_BuildingEscape_Grabber_h

@@ -1,4 +1,4 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -51,13 +51,17 @@ void EmptyLinkFunctionForGeneratedCodeGrabber() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_UGrabber_Statics::ClassParams = {
 		&UGrabber::StaticClass,
-		DependentSingletons, ARRAY_COUNT(DependentSingletons),
-		0x00B000A4u,
-		nullptr, 0,
-		nullptr, 0,
 		"Engine",
 		&StaticCppClassTypeInfo,
-		nullptr, 0,
+		DependentSingletons,
+		nullptr,
+		nullptr,
+		nullptr,
+		ARRAY_COUNT(DependentSingletons),
+		0,
+		0,
+		0,
+		0x00B000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_UGrabber_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_UGrabber_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_UGrabber()
@@ -69,7 +73,11 @@ void EmptyLinkFunctionForGeneratedCodeGrabber() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UGrabber, 1101929129);
+	IMPLEMENT_CLASS(UGrabber, 2914685396);
+	template<> BUILDINGESCAPE_API UClass* StaticClass<UGrabber>()
+	{
+		return UGrabber::StaticClass();
+	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UGrabber(Z_Construct_UClass_UGrabber, &UGrabber::StaticClass, TEXT("/Script/BuildingEscape"), TEXT("UGrabber"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UGrabber);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

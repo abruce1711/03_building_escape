@@ -1,4 +1,4 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -51,13 +51,17 @@ void EmptyLinkFunctionForGeneratedCodePositionReport() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_UPositionReport_Statics::ClassParams = {
 		&UPositionReport::StaticClass,
-		DependentSingletons, ARRAY_COUNT(DependentSingletons),
-		0x00B000A4u,
-		nullptr, 0,
-		nullptr, 0,
 		"Engine",
 		&StaticCppClassTypeInfo,
-		nullptr, 0,
+		DependentSingletons,
+		nullptr,
+		nullptr,
+		nullptr,
+		ARRAY_COUNT(DependentSingletons),
+		0,
+		0,
+		0,
+		0x00B000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_UPositionReport_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_UPositionReport_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_UPositionReport()
@@ -69,7 +73,11 @@ void EmptyLinkFunctionForGeneratedCodePositionReport() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UPositionReport, 3543070907);
+	IMPLEMENT_CLASS(UPositionReport, 2151782);
+	template<> BUILDINGESCAPE_API UClass* StaticClass<UPositionReport>()
+	{
+		return UPositionReport::StaticClass();
+	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UPositionReport(Z_Construct_UClass_UPositionReport, &UPositionReport::StaticClass, TEXT("/Script/BuildingEscape"), TEXT("UPositionReport"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UPositionReport);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

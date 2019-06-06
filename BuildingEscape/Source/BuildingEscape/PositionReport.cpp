@@ -19,7 +19,7 @@ void UPositionReport::BeginPlay()
 {
 	Super::BeginPlay();
 
-	// Gets name of the actor and returns it in the log
+	// Gets name and location  of the actor and returns it in the log
 	FString ObjectName = GetOwner()->GetName();
 	FString ObjectPos = GetOwner()->GetActorLocation().ToString();
 
