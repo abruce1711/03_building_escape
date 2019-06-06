@@ -29,13 +29,14 @@ public:
 
 private:
 	AActor* Owner;
+	float LastDoorOpenTime;
+
+	// Angle the door closes
+	float CloseAngle = 90.f;
 
 	// Angle the door opens
 	UPROPERTY(EditAnywhere)
 	float OpenAngle = 0.f;
-
-	// Angle the door closes
-	float CloseAngle = 90.f;
 
 	// Pressure plate that triggers door open
 	UPROPERTY(EditAnywhere)
@@ -45,9 +46,11 @@ private:
 	UPROPERTY(EditAnywhere)
 	float DoorCloseDelay = 1.f;
 
-	float LastDoorOpenTime;
+	// Amout of time is open
+	UPROPERTY(EditAnywhere)
+	float TriggerMass = 30.f;
 
-	// The actor that trigger the pressure plate
-	AActor* ActorThatOpens; // Remember pawn inherits from actor - we are using a pawn at the moment
+	// Gets current mass on plate
+	float GetTotalMassOnPlate();
 		
 };
