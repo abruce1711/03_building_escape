@@ -2536,3 +2536,290 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.06.06-18.20.24:366][947]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2019.06.06-18.20.24:371][947]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
 [2019.06.06-18.20.24:416][949]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2019.06.06-18.30.03:372][809]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.06-18.30.04:395][898]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.06-18.30.04:410][898]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-18.30.04:411][898]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.06-18.30.04:411][898]PIE: New page: PIE session: NewMap (6 Jun 2019 20:30:04)
+[2019.06.06-18.30.04:411][898]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.06.06-18.30.04:441][898]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029412s)
+[2019.06.06-18.30.04:442][898]LogAIModule: Creating AISystem for world NewMap
+[2019.06.06-18.30.04:442][898]LogPlayLevel: PIE: World Init took: (0.000850s)
+[2019.06.06-18.30.04:442][898]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.030837s)
+[2019.06.06-18.30.04:478][898]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2019.06.06-18.30.04:515][898]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.06-18.30.04:527][898]LogInit: FAudioDevice initialized.
+[2019.06.06-18.30.04:553][898]LogLoad: Game class is 'MyBuildingEscapeGameModeBase_BP_C'
+[2019.06.06-18.30.04:557][898]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.06.06-19.30.04
+[2019.06.06-18.30.04:557][898]LogWorld: Bringing up level for play took: 0.003096
+[2019.06.06-18.30.04:570][898]LogTemp: Error: Input component found
+[2019.06.06-18.30.04:571][898]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.555
+[2019.06.06-18.30.04:571][898]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-18.30.09:630][465]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2019.06.06-18.30.15:270][ 44]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair2)
+[2019.06.06-18.30.19:283][412]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-18.30.19:368][422]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-18.30.19:369][422]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.06-18.30.19:403][422]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.06-18.30.19:403][422]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-18.30.19:437][422]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.06-18.30.19:443][422]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2019.06.06-18.30.19:469][425]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2019.06.06-18.30.21:125][623]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.06-18.30.21:138][623]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-18.30.21:139][623]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.06-18.30.21:139][623]PIE: New page: PIE session: NewMap (6 Jun 2019 20:30:21)
+[2019.06.06-18.30.21:139][623]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.06.06-18.30.21:168][623]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028259s)
+[2019.06.06-18.30.21:168][623]LogAIModule: Creating AISystem for world NewMap
+[2019.06.06-18.30.21:169][623]LogPlayLevel: PIE: World Init took: (0.000749s)
+[2019.06.06-18.30.21:169][623]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.029562s)
+[2019.06.06-18.30.21:201][623]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2019.06.06-18.30.21:235][623]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.06-18.30.21:247][623]LogInit: FAudioDevice initialized.
+[2019.06.06-18.30.21:275][623]LogLoad: Game class is 'MyBuildingEscapeGameModeBase_BP_C'
+[2019.06.06-18.30.21:279][623]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.06.06-19.30.21
+[2019.06.06-18.30.21:279][623]LogWorld: Bringing up level for play took: 0.003165
+[2019.06.06-18.30.21:292][623]LogTemp: Error: Input component found
+[2019.06.06-18.30.21:292][623]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.167
+[2019.06.06-18.30.21:293][623]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-18.30.24:750][995]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2019.06.06-18.30.26:965][202]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MatPreviewMesh_02)
+[2019.06.06-18.30.31:439][649]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MatPreviewMesh_02)
+[2019.06.06-18.30.43:557][903]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MatPreviewMesh_02)
+[2019.06.06-18.30.49:533][451]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MatPreviewMesh_02)
+[2019.06.06-18.30.59:445][539]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-18.30.59:530][549]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-18.30.59:531][549]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.06-18.30.59:559][549]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.06-18.30.59:560][549]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-18.30.59:594][549]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.06-18.30.59:600][549]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2019.06.06-18.30.59:637][553]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2019.06.06-18.54.09:852][325]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.06-18.54.11:020][437]Candidate modules for hot reload:
+[2019.06.06-18.54.11:020][437]  BuildingEscape
+[2019.06.06-18.54.11:020][437]Launching UnrealBuildTool... [E:/Applications/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BuildingEscape,8565 Win64 Development -TargetType=Editor -Project="E:/local code repos/unreal_udemy_course/03_building_escape/BuildingEscape/BuildingEscape.uproject" "E:/local code repos/unreal_udemy_course/03_building_escape/BuildingEscape/BuildingEscape.uproject"  -IgnoreJunk]
+[2019.06.06-18.54.11:134][437]Warning: Starting HotReload took  0.1s.
+[2019.06.06-18.54.39:941][528]CompilerResultsLog: New page: Compilation - 6 Jun 2019 20:54:39
+[2019.06.06-18.54.39:941][528]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\local code repos\unreal_udemy_course\03_building_escape).
+[2019.06.06-18.54.39:941][528]CompilerResultsLog: Creating makefile for BuildingEscapeEditor (ini files are newer than makefile)
+[2019.06.06-18.54.39:941][528]CompilerResultsLog: Parsing headers for BuildingEscapeEditor
+[2019.06.06-18.54.39:941][528]CompilerResultsLog:   Running UnrealHeaderTool "E:\local code repos\unreal_udemy_course\03_building_escape\BuildingEscape\BuildingEscape.uproject" "E:\local code repos\unreal_udemy_course\03_building_escape\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.06.06-18.54.39:942][528]CompilerResultsLog: Reflection code generated for BuildingEscapeEditor in 20.1241944 seconds
+[2019.06.06-18.54.39:942][528]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (E:\Applications\Visual Studio\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (E:\Windows Kits\10).
+[2019.06.06-18.54.39:943][528]CompilerResultsLog: Building 4 actions with 4 processes...
+[2019.06.06-18.54.39:943][528]CompilerResultsLog:   [1/4] Grabber.cpp
+[2019.06.06-18.54.39:943][528]CompilerResultsLog:   [2/4] UE4Editor-BuildingEscape-8565.lib
+[2019.06.06-18.54.39:943][528]CompilerResultsLog:      Creating library E:\local code repos\unreal_udemy_course\03_building_escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-8565.lib and object E:\local code repos\unreal_udemy_course\03_building_escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-8565.exp
+[2019.06.06-18.54.39:943][528]CompilerResultsLog:   [3/4] UE4Editor-BuildingEscape-8565.dll
+[2019.06.06-18.54.39:944][528]CompilerResultsLog:      Creating library E:\local code repos\unreal_udemy_course\03_building_escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-8565.suppressed.lib and object E:\local code repos\unreal_udemy_course\03_building_escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-8565.suppressed.exp
+[2019.06.06-18.54.39:944][528]CompilerResultsLog:   [4/4] BuildingEscapeEditor.target
+[2019.06.06-18.54.39:944][528]CompilerResultsLog: Total time in Parallel executor: 4.50 seconds
+[2019.06.06-18.54.39:944][528]CompilerResultsLog: Total execution time: 28.59 seconds
+[2019.06.06-18.54.39:944][528]LogMainFrame: MainFrame: Module compiling took 28.928 seconds
+[2019.06.06-18.54.39:976][528]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2019.06.06-18.54.39:976][528]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (unloaded)
+[2019.06.06-18.54.40:002][528]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (loaded)
+[2019.06.06-18.54.40:003][528]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0005 seconds. Added 5 classes and 2 folders.
+[2019.06.06-18.54.40:007][528]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.06.06-18.54.40:096][528]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2019.06.06-18.54.40:096][528]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.06.06-18.54.40:116][528]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 2738 classes and 663 folders.
+[2019.06.06-18.54.40:116][528]Display: HotReload took 29.1s.
+[2019.06.06-18.54.42:854][810]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-18.54.42:921][818]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.06-18.54.42:937][818]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-18.54.42:938][818]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.06-18.54.42:938][818]PIE: New page: PIE session: NewMap (6 Jun 2019 20:54:42)
+[2019.06.06-18.54.42:938][818]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.06.06-18.54.42:983][818]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044249s)
+[2019.06.06-18.54.42:983][818]LogAIModule: Creating AISystem for world NewMap
+[2019.06.06-18.54.42:984][818]LogPlayLevel: PIE: World Init took: (0.000802s)
+[2019.06.06-18.54.42:984][818]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.045531s)
+[2019.06.06-18.54.43:065][818]LogUObjectHash: Compacting FUObjectHashTables data took   4.08ms
+[2019.06.06-18.54.43:100][818]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.06-18.54.43:113][818]LogInit: FAudioDevice initialized.
+[2019.06.06-18.54.43:143][818]LogLoad: Game class is 'MyBuildingEscapeGameModeBase_BP_C'
+[2019.06.06-18.54.43:147][818]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.06.06-19.54.43
+[2019.06.06-18.54.43:147][818]LogWorld: Bringing up level for play took: 0.003064
+[2019.06.06-18.54.43:160][818]LogTemp: Error: Input component found
+[2019.06.06-18.54.43:160][818]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.035
+[2019.06.06-18.54.43:161][818]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-18.54.44:095][927]LogTemp: Warning: BANG
+[2019.06.06-18.54.45:668][115]LogTemp: Warning: Grab Pressed
+[2019.06.06-18.54.45:668][115]LogTemp: Warning: Grab: SM_Chair_2
+[2019.06.06-18.54.47:807][370]LogTemp: Warning: Grab Released
+[2019.06.06-18.54.49:373][558]LogTemp: Warning: Grab Pressed
+[2019.06.06-18.54.49:373][558]LogTemp: Warning: Grab: SM_Chair_2
+[2019.06.06-18.54.49:465][569]LogTemp: Warning: Grab Released
+[2019.06.06-18.54.54:000][113]LogTemp: Warning: Grab Pressed
+[2019.06.06-18.54.54:000][113]LogTemp: Warning: Grab: SM_Chair_2
+[2019.06.06-18.54.54:091][124]LogTemp: Warning: Grab Released
+[2019.06.06-18.54.55:225][260]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-18.54.55:226][260]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.06-18.54.55:253][260]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.06-18.54.55:254][260]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-18.54.55:295][260]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.06-18.54.55:318][260]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2019.06.06-18.54.55:336][261]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2019.06.06-18.56.22:360][649]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.06-18.56.23:362][751]Candidate modules for hot reload:
+[2019.06.06-18.56.23:362][751]  BuildingEscape
+[2019.06.06-18.56.23:362][751]Launching UnrealBuildTool... [E:/Applications/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BuildingEscape,8918 Win64 Development -TargetType=Editor -Project="E:/local code repos/unreal_udemy_course/03_building_escape/BuildingEscape/BuildingEscape.uproject" "E:/local code repos/unreal_udemy_course/03_building_escape/BuildingEscape/BuildingEscape.uproject"  -IgnoreJunk]
+[2019.06.06-18.56.23:369][751]Warning: Starting HotReload took  0.0s.
+[2019.06.06-18.56.36:932][336]CompilerResultsLog: New page: Compilation - 6 Jun 2019 20:56:36
+[2019.06.06-18.56.36:932][336]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\local code repos\unreal_udemy_course\03_building_escape).
+[2019.06.06-18.56.36:933][336]CompilerResultsLog: Creating makefile for BuildingEscapeEditor (ini files are newer than makefile)
+[2019.06.06-18.56.36:933][336]CompilerResultsLog: Parsing headers for BuildingEscapeEditor
+[2019.06.06-18.56.36:933][336]CompilerResultsLog:   Running UnrealHeaderTool "E:\local code repos\unreal_udemy_course\03_building_escape\BuildingEscape\BuildingEscape.uproject" "E:\local code repos\unreal_udemy_course\03_building_escape\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.06.06-18.56.36:933][336]CompilerResultsLog: Reflection code generated for BuildingEscapeEditor in 7.4542436 seconds
+[2019.06.06-18.56.36:934][336]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (E:\Applications\Visual Studio\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (E:\Windows Kits\10).
+[2019.06.06-18.56.36:934][336]CompilerResultsLog: Building 4 actions with 4 processes...
+[2019.06.06-18.56.36:934][336]CompilerResultsLog:   [1/4] Grabber.cpp
+[2019.06.06-18.56.36:934][336]CompilerResultsLog:   [2/4] UE4Editor-BuildingEscape-8918.lib
+[2019.06.06-18.56.36:934][336]CompilerResultsLog:      Creating library E:\local code repos\unreal_udemy_course\03_building_escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-8918.lib and object E:\local code repos\unreal_udemy_course\03_building_escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-8918.exp
+[2019.06.06-18.56.36:935][336]CompilerResultsLog:   [3/4] UE4Editor-BuildingEscape-8918.dll
+[2019.06.06-18.56.36:935][336]CompilerResultsLog:      Creating library E:\local code repos\unreal_udemy_course\03_building_escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-8918.suppressed.lib and object E:\local code repos\unreal_udemy_course\03_building_escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-8918.suppressed.exp
+[2019.06.06-18.56.36:935][336]CompilerResultsLog:   [4/4] BuildingEscapeEditor.target
+[2019.06.06-18.56.36:936][336]CompilerResultsLog: Total time in Parallel executor: 3.39 seconds
+[2019.06.06-18.56.36:936][336]CompilerResultsLog: Total execution time: 13.45 seconds
+[2019.06.06-18.56.36:936][336]LogMainFrame: MainFrame: Module compiling took 13.577 seconds
+[2019.06.06-18.56.36:965][336]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2019.06.06-18.56.36:966][336]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (unloaded)
+[2019.06.06-18.56.36:994][336]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (loaded)
+[2019.06.06-18.56.36:995][336]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0004 seconds. Added 5 classes and 2 folders.
+[2019.06.06-18.56.36:999][336]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.06.06-18.56.37:088][336]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2019.06.06-18.56.37:088][336]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.06.06-18.56.37:108][336]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 2738 classes and 663 folders.
+[2019.06.06-18.56.37:108][336]Display: HotReload took 13.8s.
+[2019.06.06-18.56.38:930][507]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-18.56.39:013][517]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.06-18.56.39:030][517]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-18.56.39:031][517]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.06-18.56.39:031][517]PIE: New page: PIE session: NewMap (6 Jun 2019 20:56:39)
+[2019.06.06-18.56.39:031][517]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.06.06-18.56.39:060][517]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028435s)
+[2019.06.06-18.56.39:060][517]LogAIModule: Creating AISystem for world NewMap
+[2019.06.06-18.56.39:061][517]LogPlayLevel: PIE: World Init took: (0.000823s)
+[2019.06.06-18.56.39:061][517]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.029759s)
+[2019.06.06-18.56.39:140][517]LogUObjectHash: Compacting FUObjectHashTables data took   4.32ms
+[2019.06.06-18.56.39:176][517]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.06-18.56.39:188][517]LogInit: FAudioDevice initialized.
+[2019.06.06-18.56.39:218][517]LogLoad: Game class is 'MyBuildingEscapeGameModeBase_BP_C'
+[2019.06.06-18.56.39:222][517]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.06.06-19.56.39
+[2019.06.06-18.56.39:222][517]LogWorld: Bringing up level for play took: 0.003076
+[2019.06.06-18.56.39:235][517]LogTemp: Error: Input component found
+[2019.06.06-18.56.39:235][517]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.11
+[2019.06.06-18.56.39:236][517]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-18.56.40:469][662]LogTemp: Warning: BANG
+[2019.06.06-18.56.42:171][866]LogTemp: Warning: Grab Pressed
+[2019.06.06-18.56.42:172][866]LogTemp: Warning: Grab: SM_Chair_2
+[2019.06.06-18.56.44:083][ 94]LogTemp: Warning: Grab Released
+[2019.06.06-18.56.45:518][266]LogTemp: Warning: Grab Pressed
+[2019.06.06-18.56.45:518][266]LogTemp: Warning: Grab: SM_TableRound_6
+[2019.06.06-18.56.48:368][607]LogTemp: Warning: Grab Released
+[2019.06.06-18.56.49:795][778]LogTemp: Warning: Grab Pressed
+[2019.06.06-18.56.50:277][836]LogTemp: Warning: Grab Released
+[2019.06.06-18.56.50:570][871]LogTemp: Warning: Grab Pressed
+[2019.06.06-18.56.50:570][871]LogTemp: Warning: Grab: SM_Chair2_10
+[2019.06.06-18.56.51:596][994]LogTemp: Warning: Grab Released
+[2019.06.06-18.56.52:506][103]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-18.56.52:506][103]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.06-18.56.52:539][103]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.06-18.56.52:540][103]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-18.56.52:581][103]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.06-18.56.52:603][103]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
+[2019.06.06-18.56.52:619][104]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2019.06.06-18.57.06:223][216]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.06-18.57.07:115][301]Candidate modules for hot reload:
+[2019.06.06-18.57.07:115][301]  BuildingEscape
+[2019.06.06-18.57.07:115][301]Launching UnrealBuildTool... [E:/Applications/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BuildingEscape,5130 Win64 Development -TargetType=Editor -Project="E:/local code repos/unreal_udemy_course/03_building_escape/BuildingEscape/BuildingEscape.uproject" "E:/local code repos/unreal_udemy_course/03_building_escape/BuildingEscape/BuildingEscape.uproject"  -IgnoreJunk]
+[2019.06.06-18.57.07:121][301]Warning: Starting HotReload took  0.0s.
+[2019.06.06-18.57.08:745][455]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableRound)
+[2019.06.06-18.57.20:785][868]CompilerResultsLog: New page: Compilation - 6 Jun 2019 20:57:20
+[2019.06.06-18.57.20:786][868]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\local code repos\unreal_udemy_course\03_building_escape).
+[2019.06.06-18.57.20:786][868]CompilerResultsLog: Creating makefile for BuildingEscapeEditor (ini files are newer than makefile)
+[2019.06.06-18.57.20:786][868]CompilerResultsLog: Parsing headers for BuildingEscapeEditor
+[2019.06.06-18.57.20:786][868]CompilerResultsLog:   Running UnrealHeaderTool "E:\local code repos\unreal_udemy_course\03_building_escape\BuildingEscape\BuildingEscape.uproject" "E:\local code repos\unreal_udemy_course\03_building_escape\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.06.06-18.57.20:787][868]CompilerResultsLog: Reflection code generated for BuildingEscapeEditor in 7.3296986 seconds
+[2019.06.06-18.57.20:787][868]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (E:\Applications\Visual Studio\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (E:\Windows Kits\10).
+[2019.06.06-18.57.20:787][868]CompilerResultsLog: Building 4 actions with 4 processes...
+[2019.06.06-18.57.20:787][868]CompilerResultsLog:   [1/4] Grabber.cpp
+[2019.06.06-18.57.20:787][868]CompilerResultsLog:   E:\local code repos\unreal_udemy_course\03_building_escape\BuildingEscape\Source\BuildingEscape\Grabber.cpp(65): warning C4996: 'UPhysicsHandleComponent::GrabComponent': Please use GrabComponentAtLocation or GrabComponentAtLocationWithRotation Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.06.06-18.57.20:788][868]CompilerResultsLog:   E:\Applications\UE_4.22\Engine\Source\Runtime\Engine\Classes\PhysicsEngine/PhysicsHandleComponent.h(86): note: see declaration of 'UPhysicsHandleComponent::GrabComponent'
+[2019.06.06-18.57.20:788][868]CompilerResultsLog:   [2/4] UE4Editor-BuildingEscape-5130.lib
+[2019.06.06-18.57.20:788][868]CompilerResultsLog:      Creating library E:\local code repos\unreal_udemy_course\03_building_escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-5130.lib and object E:\local code repos\unreal_udemy_course\03_building_escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-5130.exp
+[2019.06.06-18.57.20:789][868]CompilerResultsLog:   [3/4] UE4Editor-BuildingEscape-5130.dll
+[2019.06.06-18.57.20:789][868]CompilerResultsLog:      Creating library E:\local code repos\unreal_udemy_course\03_building_escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-5130.suppressed.lib and object E:\local code repos\unreal_udemy_course\03_building_escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-5130.suppressed.exp
+[2019.06.06-18.57.20:790][868]CompilerResultsLog:   [4/4] BuildingEscapeEditor.target
+[2019.06.06-18.57.20:790][868]CompilerResultsLog: Total time in Parallel executor: 3.60 seconds
+[2019.06.06-18.57.20:790][868]CompilerResultsLog: Total execution time: 13.56 seconds
+[2019.06.06-18.57.20:790][868]LogMainFrame: MainFrame: Module compiling took 13.678 seconds
+[2019.06.06-18.57.20:821][868]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2019.06.06-18.57.20:821][868]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (unloaded)
+[2019.06.06-18.57.20:850][868]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (loaded)
+[2019.06.06-18.57.20:851][868]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0004 seconds. Added 5 classes and 2 folders.
+[2019.06.06-18.57.20:855][868]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.06.06-18.57.20:943][868]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2019.06.06-18.57.20:943][868]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.06.06-18.57.20:963][868]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 2738 classes and 663 folders.
+[2019.06.06-18.57.20:963][868]Display: HotReload took 13.9s.
+[2019.06.06-18.57.22:518][ 10]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-18.57.22:568][ 16]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.06-18.57.22:584][ 16]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-18.57.22:584][ 16]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.06-18.57.22:585][ 16]PIE: New page: PIE session: NewMap (6 Jun 2019 20:57:22)
+[2019.06.06-18.57.22:585][ 16]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.06.06-18.57.22:613][ 16]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028357s)
+[2019.06.06-18.57.22:614][ 16]LogAIModule: Creating AISystem for world NewMap
+[2019.06.06-18.57.22:614][ 16]LogPlayLevel: PIE: World Init took: (0.000792s)
+[2019.06.06-18.57.22:615][ 16]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.029680s)
+[2019.06.06-18.57.22:697][ 16]LogUObjectHash: Compacting FUObjectHashTables data took   3.96ms
+[2019.06.06-18.57.22:732][ 16]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.06-18.57.22:744][ 16]LogInit: FAudioDevice initialized.
+[2019.06.06-18.57.22:775][ 16]LogLoad: Game class is 'MyBuildingEscapeGameModeBase_BP_C'
+[2019.06.06-18.57.22:779][ 16]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.06.06-19.57.22
+[2019.06.06-18.57.22:779][ 16]LogWorld: Bringing up level for play took: 0.003150
+[2019.06.06-18.57.22:792][ 16]LogTemp: Error: Input component found
+[2019.06.06-18.57.22:793][ 16]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.333
+[2019.06.06-18.57.22:793][ 16]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-18.57.23:351][ 80]LogTemp: Warning: BANG
+[2019.06.06-18.57.24:417][208]LogTemp: Warning: Grab Pressed
+[2019.06.06-18.57.24:417][208]LogTemp: Warning: Grab: SM_Chair_2
+[2019.06.06-18.57.26:077][407]LogTemp: Warning: Grab Released
+[2019.06.06-18.57.27:765][609]LogTemp: Warning: Grab Pressed
+[2019.06.06-18.57.27:765][609]LogTemp: Warning: Grab: SM_TableRound_6
+[2019.06.06-18.57.29:714][843]LogTemp: Warning: Grab Released
+[2019.06.06-18.57.31:357][ 40]LogTemp: Warning: Grab Pressed
+[2019.06.06-18.57.31:548][ 63]LogTemp: Warning: Grab Released
+[2019.06.06-18.57.31:932][109]LogTemp: Warning: Grab Pressed
+[2019.06.06-18.57.31:933][109]LogTemp: Warning: Grab: SM_Chair2_10
+[2019.06.06-18.57.41:666][271]LogTemp: Warning: Grab Released
+[2019.06.06-18.57.44:059][558]LogTemp: Warning: Grab Pressed
+[2019.06.06-18.57.44:059][558]LogTemp: Warning: Grab: SM_Chair2_10
+[2019.06.06-18.57.45:926][782]LogTemp: Warning: Grab Released
+[2019.06.06-18.57.47:901][ 18]LogTemp: Warning: Grab Pressed
+[2019.06.06-18.57.48:351][ 72]LogTemp: Warning: Grab Released
+[2019.06.06-18.57.50:386][316]LogTemp: Warning: Grab Pressed
+[2019.06.06-18.57.51:119][404]LogTemp: Warning: Grab Released
+[2019.06.06-18.57.52:436][562]LogTemp: Warning: Grab Pressed
+[2019.06.06-18.57.52:852][612]LogTemp: Warning: Grab Released
+[2019.06.06-18.57.53:078][639]LogTemp: Warning: Grab Pressed
+[2019.06.06-18.57.53:078][639]LogTemp: Warning: Grab: SM_Chair2_10
+[2019.06.06-18.57.55:153][888]LogTemp: Warning: Grab Released
+[2019.06.06-18.57.59:996][469]LogTemp: Warning: BANG
+[2019.06.06-18.58.00:379][515]LogTemp: Warning: BANG
+[2019.06.06-18.58.00:654][548]LogTemp: Warning: BANG
+[2019.06.06-18.58.00:954][584]LogTemp: Warning: BANG
+[2019.06.06-18.58.01:905][698]LogTemp: Warning: BANG
+[2019.06.06-18.58.02:096][721]LogTemp: Warning: BANG
+[2019.06.06-18.58.02:304][746]LogTemp: Warning: BANG
+[2019.06.06-18.58.02:955][824]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-18.58.02:956][824]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.06-18.58.02:982][824]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.06-18.58.02:983][824]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.06.06-18.58.03:018][824]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.06-18.58.03:024][824]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2019.06.06-18.58.03:063][826]LogPlayLevel: Display: Destroying online subsystem :Context_30
