@@ -365,7 +365,9 @@
   </PropertyGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\BuildingEscape\Shoot.cpp" />
+    <ClCompile Include="..\..\Source\BuildingEscape\SlideTrapDoor.cpp" />
     <ClInclude Include="..\..\Source\BuildingEscape\Shoot.h" />
+    <ClInclude Include="..\..\Source\BuildingEscape\SlideTrapDoor.h" />
     <None Include="..\..\BuildingEscape.uproject" />
     <None Include="..\..\Source\BuildingEscape.Target.cs" />
     <None Include="..\..\Source\BuildingEscapeEditor.Target.cs" />

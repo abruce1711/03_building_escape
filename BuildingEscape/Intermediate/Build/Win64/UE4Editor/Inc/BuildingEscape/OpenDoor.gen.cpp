@@ -103,7 +103,7 @@ void EmptyLinkFunctionForGeneratedCodeOpenDoor() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOpenDoor_Statics::NewProp_TriggerMass_MetaData[] = {
 		{ "Category", "OpenDoor" },
 		{ "ModuleRelativePath", "OpenDoor.h" },
-		{ "ToolTip", "Amout of time is open" },
+		{ "ToolTip", "Amount of weight it takes to open the door" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UOpenDoor_Statics::NewProp_TriggerMass = { "TriggerMass", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UOpenDoor, TriggerMass), METADATA_PARAMS(Z_Construct_UClass_UOpenDoor_Statics::NewProp_TriggerMass_MetaData, ARRAY_COUNT(Z_Construct_UClass_UOpenDoor_Statics::NewProp_TriggerMass_MetaData)) };
@@ -148,7 +148,7 @@ void EmptyLinkFunctionForGeneratedCodeOpenDoor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UOpenDoor, 2510610791);
+	IMPLEMENT_CLASS(UOpenDoor, 1949469567);
 	template<> BUILDINGESCAPE_API UClass* StaticClass<UOpenDoor>()
 	{
 		return UOpenDoor::StaticClass();

@@ -33,7 +33,7 @@ private:
 	UPROPERTY(EditAnywhere)
 	ATriggerVolume* PressurePlate = nullptr;
 
-	// Amout of time is open
+	// Amount of weight it takes to open the door
 	UPROPERTY(EditAnywhere)
 	float TriggerMass = 30.f;
 

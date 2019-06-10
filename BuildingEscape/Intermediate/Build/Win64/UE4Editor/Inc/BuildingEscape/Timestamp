@@ -1,5 +1,6 @@
 E:\local code repos\unreal_udemy_course\03_building_escape\BuildingEscape\Source\BuildingEscape\BuildingEscapeGameModeBase.h
-E:\local code repos\unreal_udemy_course\03_building_escape\BuildingEscape\Source\BuildingEscape\PositionReport.h
-E:\local code repos\unreal_udemy_course\03_building_escape\BuildingEscape\Source\BuildingEscape\Grabber.h
-E:\local code repos\unreal_udemy_course\03_building_escape\BuildingEscape\Source\BuildingEscape\Shoot.h
 E:\local code repos\unreal_udemy_course\03_building_escape\BuildingEscape\Source\BuildingEscape\OpenDoor.h
+E:\local code repos\unreal_udemy_course\03_building_escape\BuildingEscape\Source\BuildingEscape\Grabber.h
+E:\local code repos\unreal_udemy_course\03_building_escape\BuildingEscape\Source\BuildingEscape\PositionReport.h
+E:\local code repos\unreal_udemy_course\03_building_escape\BuildingEscape\Source\BuildingEscape\SlideTrapDoor.h
+E:\local code repos\unreal_udemy_course\03_building_escape\BuildingEscape\Source\BuildingEscape\Shoot.h

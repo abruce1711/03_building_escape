@@ -12,6 +12,7 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeBuildingEscape_init() {}
 	BUILDINGESCAPE_API UFunction* Z_Construct_UDelegateFunction_BuildingEscape_DoorRequest__DelegateSignature();
+	BUILDINGESCAPE_API UFunction* Z_Construct_UDelegateFunction_BuildingEscape_TrapDoorRequest__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_BuildingEscape()
 	{
 		static UPackage* ReturnPackage = nullptr;
@@ -19,14 +20,15 @@ void EmptyLinkFunctionForGeneratedCodeBuildingEscape_init() {}
 		{
 			static UObject* (*const SingletonFuncArray[])() = {
 				(UObject* (*)())Z_Construct_UDelegateFunction_BuildingEscape_DoorRequest__DelegateSignature,
+				(UObject* (*)())Z_Construct_UDelegateFunction_BuildingEscape_TrapDoorRequest__DelegateSignature,
 			};
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/BuildingEscape",
 				SingletonFuncArray,
 				ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x6A1A744D,
-				0xBF40C3BE,
+				0x5AD379CA,
+				0xCB693549,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);
